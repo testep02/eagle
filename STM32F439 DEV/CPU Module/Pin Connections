@@ -1,0 +1,18 @@
+MEMS:
+
+SCL               SPI5_SCLK
+SDA/SDI/SDO       SPI5_MOSI
+SA0/SDO           SPI5_MISO
+CS_I2C/SPI        NCS_MEMS_SPI
+DRDY/INT2         MEMS_INT2
+INT1              MEMS_INT1
+
+TOUCH CONTROLLER:
+
+Y-                YD
+X-                XL
+Y+                YU
+X+                XR
+SCLK              I2C3_SCL
+SDAT              I2C3_SDA
+INT               TP_INT1

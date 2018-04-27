@@ -1,0 +1,137 @@
+Data Expoted from: C:/Users/Travis/Documents/eagle/Headphone Amps/TPA6138/portable_tpa6138a2.sch
+with: C:/Program Files (x86)/EAGLE-6.4.0/ulp/statistic-sch.ulp
+at: 2/6/2014 9:36:06 PM
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+used layers 5
+
+91 Nets
+93 Pins
+94 Symbols
+95 Names
+96 Values
+_________________________
+
+
+
+
+============================
+
+----------------------------
+LAYER
+Nb.	Name	Used
+ 91	Nets	1
+ 92	Busses	0
+ 93	Pins	1
+ 94	Symbols	1
+ 95	Names	1
+ 96	Values	1
+ 97	Info	0
+ 98	Guide	0
+100	Muster	0
+101	Patch_Top	0
+102	Vscore	0
+103	fp3	0
+104	Name	0
+105	Beschreib	0
+106	BGA-Top	0
+107	BD-Top	0
+108	fp8	0
+109	fp9	0
+110	fp0	0
+111	LPC17xx	0
+112	tSilk	0
+116	Patch_BOT	0
+121	_tsilk	0
+122	_bsilk	0
+123	tTestmark	0
+124	bTestmark	0
+125	_tNames	0
+126	_bNames	0
+127	_tValues	0
+128	_bValues	0
+131	tAdjust	0
+132	bAdjust	0
+144	Drill_legend	0
+150	Notes	0
+151	HeatSink	0
+152	_bDocu	0
+153	FabDoc1	0
+154	FabDoc2	0
+155	FabDoc3	0
+199	Contour	0
+200	200bmp	0
+201	201bmp	0
+202	202bmp	0
+203	203bmp	0
+204	204bmp	0
+205	205bmp	0
+206	206bmp	0
+207	207bmp	0
+208	208bmp	0
+209	209bmp	0
+210	210bmp	0
+211	211bmp	0
+212	212bmp	0
+213	213bmp	0
+214	214bmp	0
+215	215bmp	0
+216	216bmp	0
+217	217bmp	0
+218	218bmp	0
+219	219bmp	0
+220	220bmp	0
+221	221bmp	0
+222	222bmp	0
+223	223bmp	0
+224	224bmp	0
+248	Housing	0
+249	Edge	0
+250	Descript	0
+251	SMDround	0
+254	cooling	0
+
+----------------------------
+CLASS
+# - Name	min. Width	Clearance	min. Drill	Used
+0 - default	0.0000 	0.0000 	0.0000 	27  
+
+
+----------------------------
+LIBRARY	Quant.
+rcl	37  
+supply1	22  
+adafruit	3   
+TPA6138A2PWR	1   
+burr-brown	1   
+smd-special	2   
+led	1   
+
+PACKAGE	Quant.
+C0603	12  
+153CLV-0405	4   
+C0805	1   
+STX3100	2   
+TSSOP14	1   
+SOT223	1   
+SMS-001	2   
+SMARTLED-TTW	1   
+R0603	20  
+USB-MINIB-THM-PWRONLY	1   
+
+DEVICE	Quant.
+C-USC0603	12  
+CPOL-EU153CLV-0405	4   
+C-USC0805	1   
+STEREOJACK	2   
+TPA6138A2PWR	1   
+REG1117	1   
+SWS001	2   
+LED	1   
+R-US_R0603	20  
+USB-PWRU4CON	1   
+
+
+----------------------------
+
+End report

@@ -1,0 +1,59 @@
+IR2101 Brushed Controller:  H-Bridge Parts List
+
+Parts 						QTY						Price					Part #
+- IR2101					 2						 1.65 (3.30)			 IR2101 -
+- BC817-25					 4 (100)				 .039 (3.90)		 	 BC817-25 -
+- 0603 (10R)				 4 (100)				 .008 (.80)				 71-CRCW0603J-10-E3 -
+- 0603 (.1uF)				 2 (100)				 .016 (1.60)			 80-C0603C104K5R -
+- 0603 (4.7uF)				 2 (100)				 .03 (3.00)				 80-C0603C475K9P -
+- DIODESOD-523				 2 (100)				 .057 (5.70)			 863-BAS16XV2T1G -
+- 0603 (470R)				 1 (100)				 .008 (.80)				 71-CRCW0603J-470-E3 -
+- 0805 (.1uF)				 1 (100)				 .018 (1.80)			 581-08055C104K -
+- B/3528-21W (22uF)			 1 (10)					 1.173 (11.73)			 399-3835-1-ND 				(DigiKey)
+- 0603 (10KR)				 8 (100)				 .008 (.80)				 71-CRCW0603J-10K-E3 -
+- 0603 (22R)				 4 (100)				 .008 (.80)				 71-CRCW0603J-22-E3 -
+- 0603 (1KR)				 4 (100)				 .008 (.80)				 71-CRCW0603J-1.0K-E3 -
+- 0805 (LED)				 1 (10)					 .31 (3.10)				 638-172BHC-AN1P23T
+- Boards					 3 						 2.33 (each)			 OshPark.com
+
+Board Total (Each):  $7.661
+
+
+MISC MOUSER STUFF
+
+LED Headlamps
+http://www.mouser.com/search/refine.aspx?Ntk=P_MarCom&Ntt=145589514
+
+NFC/RFID Tags
+http://www.mouser.com/new/stmicroelectronics/stm-m24sr-nfc-rfid/?cm_sp=homepage-_-newproducts-_-
+
+Core-i7 Dev Board
+www.mouser.com/ProductDetail/ADLINK-Technology/Starterkit-HL-i7-4700EQ-4G/?qs=sGAEpiMZZMukBJem%252bjLAJ5X9zlXMO4KN
+
+XLamp LED
+http://www.mouser.com/new/cree/cree-XH-LEDs/?cm_sp=homepage-_-newproducts-_-
+
+LumiLEDs
+www.mouser.com/new/Philips-Lumileds/philips-lumileds-luxeon-q/?cm_sp=homepage-_-newproducts-_-
+
+AM335x
+http://www.mouser.com/new/Texas-Instruments/ti-am335x/?cm_sp=homepage-_-newproducts-_-Texas+Instruments+AM335x+ARM+CortexA8+Microprocessors
+
+Hall Effect
+http://www.mouser.com/new/honeywell/honeywellRTY/?cm_sp=homepage-_-newproducts-_-Honeywell+RTY+HallEffect+Rotary+Position+Sensors
+
+DAC
+http://www.mouser.com/new/Analog-Devices/adi-ad5687-digital-analog-converter/?cm_sp=homepage-_-newproducts-_-
+
+Atmel Cortex-A5
+www.mouser.com/new/atmel/atmel-sama5d3/?cm_sp=homepage-_-newproducts-_-
+
+LED Driver
+http://www.mouser.com/ProductDetail/Texas-Instruments/TPS61040DRVRG4/?qs=sGAEpiMZZMvVdBlXEaMJhLwy0ZRW0AGA
+
+TFT w/ Touch
+http://www.mouser.com/ProductDetail/Newhaven-Display/NHD-43-480272EF-ATXL-CTP/?qs=sGAEpiMZZMu%2fRY1bNe3bOzXdmhjyl0NaApVtYjiX%252blM%3d
+
+Microscope
+http://www.microscopenet.com/boom-stand-binocular-stereo-microscope-10x20x-p-213.html?gclid=CMmA36m15r0CFYtDMgodpEUAEQ
+

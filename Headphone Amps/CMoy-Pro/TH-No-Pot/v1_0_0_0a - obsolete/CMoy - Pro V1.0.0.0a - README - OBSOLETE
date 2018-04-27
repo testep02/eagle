@@ -1,0 +1,16 @@
+CMoy - Pro V1.0.0.0a - Readme - OBSOLETE
+
+Info:
+This headphone amp is designed to test op-amps without any buffers. This amp can use any dual
+op amp such as the AD8620 or a TI Burr-Brown op-amp. 
+
+ERROR - Board:
+
+The board for this version of the amp has an error. There is a trace missing between C2_6 and
+R2_R. The trace is suppose to run from the headphone jack to C2_R, which then has a trace that 
+connects to R2_R. This trace is to connect the right headphone positive input to virtual ground
+through the 100K resistor.
+
+TEMP FIX:
+This error can be resolved on this board by connecting a wire from the post of C2_R that connects
+to the headphone jack to the post of R2_R that is closest to C2_R.

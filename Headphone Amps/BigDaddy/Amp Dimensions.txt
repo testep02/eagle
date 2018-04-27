@@ -1,0 +1,14 @@
+Amp Dimensions to Shoot for:
+
+- Cigarette Pack (Ultra Portable):
+	- 3 3/8 x 2 3/16 x 7/8
+	- Must Fit:
+		- Boards
+		- Caps
+		- Batteries
+		- Switches and Buttons
+		- Jacks
+		- Indicators (Screen, LEDs, etc.)
+
+- Camera Size:
+	- 3 3/16 x 2 1/4 x 3/4
