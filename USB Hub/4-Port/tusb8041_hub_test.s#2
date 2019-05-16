@@ -11679,7 +11679,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="TP4" library="testpad" deviceset="TP" device="TP10R"/>
 <part name="TP5" library="testpad" deviceset="TP" device="TP10R"/>
-<part name="TP6" library="testpad" deviceset="TP" device="TP10R"/>
 </parts>
 <sheets>
 <sheet>
@@ -13663,7 +13662,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND49" gate="1" x="38.1" y="7.62"/>
 <instance part="TP4" gate="G$1" x="43.18" y="60.96" rot="R90"/>
 <instance part="TP5" gate="G$1" x="43.18" y="33.02" rot="R90"/>
-<instance part="TP6" gate="G$1" x="43.18" y="27.94" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -13748,14 +13746,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="30.48" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="AUTOENZ" class="0">
-<segment>
-<pinref part="U1" gate="G$2" pin="AUTOENZ/HS_SUSPEND"/>
-<wire x1="60.96" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
-<label x="45.72" y="27.94" size="1.778" layer="95"/>
-<pinref part="TP6" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="GRSTZ" class="0">

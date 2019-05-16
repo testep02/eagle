@@ -30,14 +30,14 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -3707,9 +3707,9 @@ design rules under a new name.</description>
 <wire x1="111.5" y1="48" x2="112" y2="47.5" width="1.016" layer="1"/>
 <wire x1="112" y1="47.5" x2="113.45" y2="47.5" width="1.016" layer="1"/>
 <wire x1="113.45" y1="47.5" x2="113.5" y2="47.55" width="1.016" layer="1"/>
-<wire x1="118.5" y1="46.5" x2="117.5" y2="46.5" width="1.016" layer="1"/>
-<wire x1="117.5" y1="46.5" x2="116.5" y2="47.5" width="1.016" layer="1"/>
-<wire x1="116.5" y1="47.5" x2="113.55" y2="47.5" width="1.016" layer="1"/>
+<wire x1="118.5" y1="46.5" x2="117.246" y2="46.5" width="1.016" layer="1"/>
+<wire x1="117.246" y1="46.5" x2="116.246" y2="47.5" width="1.016" layer="1"/>
+<wire x1="116.246" y1="47.5" x2="113.55" y2="47.5" width="1.016" layer="1"/>
 <wire x1="113.55" y1="47.5" x2="113.5" y2="47.55" width="1.016" layer="1"/>
 </signal>
 <signal name="N$3">
@@ -3732,9 +3732,9 @@ design rules under a new name.</description>
 <wire x1="152.35" y1="48.85" x2="153" y2="49.5" width="1.016" layer="1"/>
 <wire x1="153" y1="49.5" x2="153" y2="50.45" width="1.016" layer="1"/>
 <wire x1="153" y1="50.45" x2="152.95" y2="50.5" width="1.016" layer="1"/>
-<wire x1="152.95" y1="50.5" x2="152.95" y2="52.45" width="1.016" layer="1"/>
-<wire x1="152.95" y1="52.45" x2="154" y2="53.5" width="1.016" layer="1"/>
-<wire x1="154" y1="53.5" x2="154" y2="55" width="1.016" layer="1"/>
+<wire x1="152.95" y1="50.5" x2="152.95" y2="52.704" width="1.016" layer="1"/>
+<wire x1="152.95" y1="52.704" x2="154" y2="53.754" width="1.016" layer="1"/>
+<wire x1="154" y1="53.754" x2="154" y2="55" width="1.016" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="FB5" pad="2"/>
@@ -3744,9 +3744,9 @@ design rules under a new name.</description>
 <wire x1="152.35" y1="68.85" x2="153" y2="69.5" width="1.016" layer="1"/>
 <wire x1="153" y1="69.5" x2="153" y2="70.45" width="1.016" layer="1"/>
 <wire x1="153" y1="70.45" x2="152.95" y2="70.5" width="1.016" layer="1"/>
-<wire x1="152.95" y1="70.5" x2="152.95" y2="72.45" width="1.016" layer="1"/>
-<wire x1="152.95" y1="72.45" x2="154" y2="73.5" width="1.016" layer="1"/>
-<wire x1="154" y1="73.5" x2="154" y2="75" width="1.016" layer="1"/>
+<wire x1="152.95" y1="70.5" x2="152.95" y2="72.704" width="1.016" layer="1"/>
+<wire x1="152.95" y1="72.704" x2="154" y2="73.754" width="1.016" layer="1"/>
+<wire x1="154" y1="73.754" x2="154" y2="75" width="1.016" layer="1"/>
 </signal>
 <signal name="PWRCTL2">
 <contactref element="U1" pad="35"/>

@@ -12970,18 +12970,18 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </plain>
 <instances>
 <instance part="U1" gate="G$2" x="63.5" y="33.02"/>
-<instance part="Y1" gate="G$1" x="25.4" y="55.88" rot="R90"/>
-<instance part="R14" gate="G$1" x="33.02" y="55.88" rot="R90"/>
-<instance part="C50" gate="G$1" x="25.4" y="45.72"/>
-<instance part="C70" gate="G$1" x="25.4" y="68.58"/>
-<instance part="GND31" gate="1" x="25.4" y="73.66" rot="R180"/>
-<instance part="GND32" gate="1" x="25.4" y="38.1"/>
-<instance part="LED6" gate="G$1" x="25.4" y="22.86"/>
-<instance part="R16" gate="G$1" x="25.4" y="12.7" rot="R90"/>
-<instance part="LED7" gate="G$1" x="33.02" y="22.86"/>
-<instance part="R18" gate="G$1" x="33.02" y="12.7" rot="R90"/>
-<instance part="GND48" gate="1" x="25.4" y="7.62"/>
-<instance part="GND49" gate="1" x="33.02" y="7.62"/>
+<instance part="Y1" gate="G$1" x="30.48" y="55.88" rot="R90"/>
+<instance part="R14" gate="G$1" x="38.1" y="55.88" rot="R90"/>
+<instance part="C50" gate="G$1" x="30.48" y="45.72"/>
+<instance part="C70" gate="G$1" x="30.48" y="68.58"/>
+<instance part="GND31" gate="1" x="30.48" y="73.66" rot="R180"/>
+<instance part="GND32" gate="1" x="30.48" y="38.1"/>
+<instance part="LED6" gate="G$1" x="30.48" y="22.86"/>
+<instance part="R16" gate="G$1" x="30.48" y="12.7" rot="R90"/>
+<instance part="LED7" gate="G$1" x="38.1" y="22.86"/>
+<instance part="R18" gate="G$1" x="38.1" y="12.7" rot="R90"/>
+<instance part="GND48" gate="1" x="30.48" y="7.62"/>
+<instance part="GND49" gate="1" x="38.1" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -12989,33 +12989,33 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <net name="CLK_N" class="0">
 <segment>
 <pinref part="Y1" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="58.42" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="58.42" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="60.96" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="60.96" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$2" pin="XI"/>
-<wire x1="33.02" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
-<junction x="33.02" y="58.42"/>
+<wire x1="38.1" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+<junction x="38.1" y="58.42"/>
 <pinref part="C70" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="60.96" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
-<junction x="25.4" y="60.96"/>
+<wire x1="30.48" y1="60.96" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
+<junction x="30.48" y="60.96"/>
 </segment>
 </net>
 <net name="CLK_P" class="0">
 <segment>
 <pinref part="Y1" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="53.34" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="50.8" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="53.34" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="50.8" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="53.34" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
-<junction x="33.02" y="53.34"/>
+<wire x1="38.1" y1="50.8" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="53.34" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<junction x="38.1" y="53.34"/>
 <pinref part="U1" gate="G$2" pin="XO"/>
-<wire x1="35.56" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C50" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="48.26" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
+<wire x1="30.48" y1="48.26" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
+<junction x="30.48" y="50.8"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -13040,32 +13040,32 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="25.4" y1="15.24" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="15.24" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="LED7" gate="G$1" pin="C"/>
-<wire x1="33.02" y1="15.24" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="15.24" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="GANGED/SMBA2/HS_UP"/>
 <pinref part="LED7" gate="G$1" pin="A"/>
-<wire x1="60.96" y1="30.48" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="30.48" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="30.48" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="FULLPWRMGMTZ/SMBA1/SS_UP"/>
-<wire x1="60.96" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="35.56" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="35.56" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="LED6" gate="G$1" pin="A"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">

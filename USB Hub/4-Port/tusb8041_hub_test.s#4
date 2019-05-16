@@ -11677,7 +11677,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R18" library="common" deviceset="RES" device="0402L3"/>
 <part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="TP2" library="testpad" deviceset="TP" device="TP10R"/>
 <part name="TP4" library="testpad" deviceset="TP" device="TP10R"/>
 <part name="TP5" library="testpad" deviceset="TP" device="TP10R"/>
 <part name="TP6" library="testpad" deviceset="TP" device="TP10R"/>
@@ -13594,14 +13593,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="43.18" y="-17.78" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="OVERCUR4Z" class="0">
-<segment>
-<pinref part="U1" gate="G$3" pin="OVERCUR4Z"/>
-<wire x1="101.6" y1="12.7" x2="109.22" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="12.7" x2="109.22" y2="-17.78" width="0.1524" layer="91"/>
-<label x="111.76" y="-17.78" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="PWRCTL4" class="0">
 <segment>
 <pinref part="U1" gate="G$3" pin="PWRCTL4/BATEN4"/>
@@ -13616,14 +13607,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="101.6" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="45.72" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
 <label x="114.3" y="83.82" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="PWRCTL3" class="0">
-<segment>
-<pinref part="U1" gate="G$3" pin="PWRCTL3/BATEN3"/>
-<wire x1="101.6" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="50.8" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
-<label x="109.22" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="OVERCUR1Z" class="0">
@@ -13678,7 +13661,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R18" gate="G$1" x="38.1" y="12.7" rot="R90"/>
 <instance part="GND48" gate="1" x="30.48" y="7.62"/>
 <instance part="GND49" gate="1" x="38.1" y="7.62"/>
-<instance part="TP2" gate="G$1" x="43.18" y="45.72" rot="R90"/>
 <instance part="TP4" gate="G$1" x="43.18" y="60.96" rot="R90"/>
 <instance part="TP5" gate="G$1" x="43.18" y="33.02" rot="R90"/>
 <instance part="TP6" gate="G$1" x="43.18" y="27.94" rot="R90"/>
@@ -13766,14 +13748,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="30.48" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="U1" gate="G$2" pin="SDA/SMBDAT"/>
-<wire x1="60.96" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
-<label x="45.72" y="45.72" size="1.778" layer="95"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="AUTOENZ" class="0">

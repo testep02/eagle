@@ -8560,8 +8560,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C5" library="common" deviceset="CAP" device="0805L3" value="10u"/>
 <part name="C6" library="common" deviceset="CAP" device="0805L3" value="10u"/>
-<part name="C7" library="rcl" deviceset="CPOL-US" device="153CLV-0807" value="100u"/>
-<part name="C8" library="rcl" deviceset="CPOL-US" device="153CLV-0807" value="100u"/>
+<part name="C7" library="rcl" deviceset="CPOL-US" device="CT7343" value="100u"/>
+<part name="C8" library="rcl" deviceset="CPOL-US" device="CT7343" value="100u"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>

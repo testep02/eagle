@@ -11678,7 +11678,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="TP4" library="testpad" deviceset="TP" device="TP10R"/>
-<part name="TP5" library="testpad" deviceset="TP" device="TP10R"/>
 </parts>
 <sheets>
 <sheet>
@@ -13661,7 +13660,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND48" gate="1" x="30.48" y="7.62"/>
 <instance part="GND49" gate="1" x="38.1" y="7.62"/>
 <instance part="TP4" gate="G$1" x="43.18" y="60.96" rot="R90"/>
-<instance part="TP5" gate="G$1" x="43.18" y="33.02" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -13754,14 +13752,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="60.96" y1="60.96" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
 <label x="45.72" y="60.96" size="1.778" layer="95"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
-</segment>
-</net>
-<net name="PWRCTL" class="0">
-<segment>
-<pinref part="U1" gate="G$2" pin="PWRCTL_POL"/>
-<wire x1="60.96" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
-<label x="45.72" y="33.02" size="1.778" layer="95"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
 </segment>
 </net>
 </nets>
