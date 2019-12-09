@@ -576,553 +576,452 @@ Date:  4/21/14</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="tusb8040a1">
+<library name="usb3_type_a">
 <packages>
-<package name="S-PWQFN-N100">
-<smd name="USB_SSRXM_DN2" x="0" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="USB_SSTXM_DN2" x="0.6" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="USB_DP_DN2" x="1.2" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="VDD33_1" x="1.8" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="HS" x="2.4" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="SS" x="3" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="SS_SUSPEND" x="3.6" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="VDD11_2" x="-0.6" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="VDD11_1" x="-1.2" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="USB_SSTXM_DN0" x="-1.8" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="USB_SSRXM_DN0" x="-2.4" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="VDD11_0" x="-3" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="USB_DM_DN0" x="-3.6" y="4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="USB_SSRXM_DN3" x="0" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="VDD11_10" x="0.6" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="USB_DM_DN3" x="1.2" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="LEDG3Z_USED3" x="1.8" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="VDD11_9" x="2.4" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="LEDG2Z_USED2" x="3" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="LEDG1Z_USED1" x="3.6" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="USB_SSTXM_DN3" x="-0.6" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="VDD11_11" x="-1.2" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="USB_SSRXM_DN1" x="-1.8" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="USB_SSTXM_DN1" x="-2.4" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="VDD11_12" x="-3" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="USB_DM_DN1" x="-3.6" y="-4.4" dx="0.25" dy="0.6" layer="1"/>
-<smd name="VDD11_7" x="4.4" y="0" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="SDA_SMBDAT" x="4.4" y="0.6" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="GRSTZ" x="4.4" y="1.2" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="FULLPWRMGMTZ_SMBA1" x="4.4" y="1.8" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="JTAG_RSTZ" x="4.4" y="2.4" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="JTAG_TDO" x="4.4" y="3" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="VDD33_2" x="4.4" y="3.6" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="PWRON1Z_BATEN1" x="4.4" y="-0.6" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="PWRON3Z_BATEN3" x="4.4" y="-1.2" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="OVERCUR1Z" x="4.4" y="-1.8" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="OVERCUR3Z" x="4.4" y="-2.4" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="LEDG0Z_USED0" x="4.4" y="-3" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="VDD11_8" x="4.4" y="-3.6" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="USB_DP_UP" x="-4.4" y="0" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="VDD33_7" x="-4.4" y="0.6" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="XO" x="-4.4" y="1.2" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="XI" x="-4.4" y="1.8" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="USB_R1" x="-4.4" y="2.4" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="NC_1" x="-4.4" y="3" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="VDD11_16" x="-4.4" y="3.6" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="VDD33_6" x="-4.4" y="-0.6" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="USB_SSRXP_UP" x="-4.4" y="-1.2" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="GND" x="-4.4" y="-1.8" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="USB_SSTXM_UP" x="-4.4" y="-2.4" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="GANGED_SMBA2" x="-4.4" y="-3" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="NC_0" x="-4.4" y="-3.6" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="USB_SSTXP_DN2" x="0.275" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="VDD11_3" x="0.825" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="USB_DM_DN2" x="1.375" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="VDD11_4" x="1.925" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="HS_SUSPEND" x="2.475" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="VDD11_5" x="3.025" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="USB_SSRXP_DN2" x="-0.275" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="NC_2" x="-0.825" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="USB_SSTXP_DN0" x="-1.375" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="USB_SSRXP_DN0" x="-1.925" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="VDD33_0" x="-2.475" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="USB_DP_DN0" x="-3.025" y="3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="USB_SSTXP_DN3" x="-0.275" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="NC_3" x="-0.825" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="USB_SSRXP_DN1" x="-1.375" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="USB_SSTXP_DN1" x="-1.925" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="VDD33_5" x="-2.475" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="USB_DP_DN1" x="-3.025" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="USB_SSRXP_DN3" x="0.275" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="USB_DP_DN3" x="0.825" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="VDD33_4" x="1.375" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="LEDA3Z_RMBL3" x="1.925" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="LEDA2Z_RMBL2" x="2.475" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="LEDA1Z_RMBL1" x="3.025" y="-3.65" dx="0.25" dy="0.4" layer="1"/>
-<smd name="VDD11_15" x="-3.65" y="0.275" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="USB_VBUS" x="-3.65" y="0.825" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="VSSOSC" x="-3.65" y="1.375" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="VDD33_8" x="-3.65" y="1.925" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="USB_R1RTN" x="-3.65" y="2.475" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="VDD33_9" x="-3.65" y="3.025" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="USB_DM_UP" x="-3.65" y="-0.275" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="VDD11_14" x="-3.65" y="-0.825" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="USB_SSRXM_UP" x="-3.65" y="-1.375" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="USB_SSTXP_UP" x="-3.65" y="-1.925" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="VDD11_13" x="-3.65" y="-2.475" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="PORTINDZ_SMBA3" x="-3.65" y="-3.025" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="SMBUSZ" x="3.65" y="0.275" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="SCL_SMBCLK" x="3.65" y="0.825" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="VDD11_6" x="3.65" y="1.375" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="JTAG_TDI" x="3.65" y="1.925" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="JTAG_TMS" x="3.65" y="2.475" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="JTAG_TCK" x="3.65" y="3.025" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="PWRON0Z_BATEN0" x="3.65" y="-0.275" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="PWRON2Z_BATEN2" x="3.65" y="-0.825" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="OVERCUR0Z" x="3.65" y="-1.375" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="OVERCUR2Z" x="3.65" y="-1.925" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="LEDA0Z_RMBL0" x="3.65" y="-2.475" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="VDD33_3" x="3.65" y="-3.025" dx="0.25" dy="0.4" layer="1" rot="R90"/>
-<smd name="GND@18" x="-4.25" y="4.25" dx="0.3" dy="0.3" layer="1"/>
-<smd name="GND@19" x="4.25" y="4.25" dx="0.3" dy="0.3" layer="1"/>
-<smd name="GND@20" x="4.25" y="-4.25" dx="0.3" dy="0.3" layer="1"/>
-<smd name="GND@21" x="-4.25" y="-4.25" dx="0.3" dy="0.3" layer="1"/>
-<smd name="GND@17" x="0" y="0" dx="5.5" dy="5.5" layer="1"/>
-<pad name="GND@1" x="-2.4" y="2.4" drill="0.13" diameter="0.21"/>
-<pad name="GND@2" x="-0.8" y="2.4" drill="0.13" diameter="0.21"/>
-<pad name="GND@3" x="0.8" y="2.4" drill="0.13" diameter="0.21"/>
-<pad name="GND@4" x="2.4" y="2.4" drill="0.13" diameter="0.21"/>
-<pad name="GND@5" x="-2.4" y="0.8" drill="0.13" diameter="0.21"/>
-<pad name="GND@6" x="-0.8" y="0.8" drill="0.13" diameter="0.21"/>
-<pad name="GND@7" x="0.8" y="0.8" drill="0.13" diameter="0.21"/>
-<pad name="GND@8" x="2.4" y="0.8" drill="0.13" diameter="0.21"/>
-<pad name="GND@12" x="2.4" y="-0.8" drill="0.13" diameter="0.21"/>
-<pad name="GND@11" x="0.8" y="-0.8" drill="0.13" diameter="0.21"/>
-<pad name="GND@10" x="-0.8" y="-0.8" drill="0.13" diameter="0.21"/>
-<pad name="GND@9" x="-2.4" y="-0.8" drill="0.13" diameter="0.21"/>
-<pad name="GND@13" x="-2.4" y="-2.4" drill="0.13" diameter="0.21"/>
-<pad name="GND@14" x="-0.8" y="-2.4" drill="0.13" diameter="0.21"/>
-<pad name="GND@15" x="0.8" y="-2.4" drill="0.13" diameter="0.21"/>
-<pad name="GND@16" x="2.4" y="-2.4" drill="0.13" diameter="0.21"/>
-<wire x1="-4.575" y1="4.575" x2="-3.82" y2="4.575" width="0.127" layer="21"/>
-<wire x1="-3.82" y1="4.575" x2="-3.82" y2="4.58" width="0.127" layer="21"/>
-<wire x1="-4.58" y1="4.56" x2="-4.58" y2="3.83" width="0.127" layer="21"/>
-<wire x1="4.58" y1="4.575" x2="3.84" y2="4.575" width="0.127" layer="21"/>
-<wire x1="3.84" y1="4.575" x2="3.84" y2="4.58" width="0.127" layer="21"/>
-<wire x1="4.58" y1="4.575" x2="4.58" y2="3.85" width="0.127" layer="21"/>
-<wire x1="4.575" y1="-4.575" x2="4.57" y2="-4.575" width="0.127" layer="21"/>
-<wire x1="4.57" y1="-4.575" x2="4.57" y2="-3.85" width="0.127" layer="21"/>
-<wire x1="4.57" y1="-4.575" x2="3.84" y2="-4.575" width="0.127" layer="21"/>
-<wire x1="3.84" y1="-4.575" x2="3.84" y2="-4.58" width="0.127" layer="21"/>
-<wire x1="-4.57" y1="-4.575" x2="-3.86" y2="-4.575" width="0.127" layer="21"/>
-<wire x1="-3.86" y1="-4.575" x2="-3.86" y2="-4.57" width="0.127" layer="21"/>
-<wire x1="-4.575" y1="-4.575" x2="-4.57" y2="-4.575" width="0.127" layer="21"/>
-<wire x1="-4.57" y1="-4.575" x2="-4.57" y2="-3.86" width="0.127" layer="21"/>
-<text x="-4.98" y="4.68" size="0.3048" layer="51">C1</text>
-<text x="-3.81" y="4.8" size="0.3048" layer="21">A1</text>
-<text x="3.4" y="4.83" size="0.3048" layer="51">A13</text>
-<text x="4.86" y="3.47" size="0.3048" layer="51">A14</text>
-<text x="4.85" y="-3.73" size="0.3048" layer="51">A26</text>
-<text x="3.51" y="-5.21" size="0.3048" layer="51">A27</text>
-<text x="-4.15" y="-5.29" size="0.3048" layer="51">A39</text>
-<text x="-5.7" y="-3.72" size="0.3048" layer="51">A40</text>
-<text x="-5.73" y="3.43" size="0.3048" layer="51">A52</text>
-<text x="-3.74" y="3.51" size="0.3048" layer="51">B1</text>
-<text x="3.27" y="3.3" size="0.3048" layer="51">B13</text>
-<text x="3.27" y="-3.85" size="0.3048" layer="51">B25</text>
-<text x="-4" y="-3.62" size="0.3048" layer="51">B37</text>
-<text x="-4.6" y="5.58" size="0.6096" layer="25">&gt;NAME</text>
-<text x="-3.13" y="4.93" size="0.254" layer="51">2</text>
-<text x="-2.52" y="4.98" size="0.254" layer="51">3</text>
-<text x="-1.94" y="4.98" size="0.254" layer="51">4</text>
-<text x="-1.28" y="5.02" size="0.254" layer="51">5</text>
-<text x="-0.71" y="4.96" size="0.254" layer="51">6</text>
-<text x="-0.09" y="4.96" size="0.254" layer="51">7</text>
-<text x="0.49" y="4.98" size="0.254" layer="51">8</text>
-<text x="1.15" y="4.97" size="0.254" layer="51">9</text>
-<text x="1.59" y="5.01" size="0.254" layer="51">10</text>
-<text x="2.22" y="4.93" size="0.254" layer="51">11</text>
-<text x="2.8" y="4.92" size="0.254" layer="51">12</text>
-<text x="4.89" y="2.95" size="0.254" layer="51">15</text>
-<text x="4.87" y="2.35" size="0.254" layer="51">16</text>
-<text x="4.93" y="1.7" size="0.254" layer="51">17</text>
-<text x="4.9" y="1.12" size="0.254" layer="51">18</text>
-<text x="4.94" y="0.52" size="0.254" layer="51">19</text>
-<text x="4.91" y="-0.08" size="0.254" layer="51">20</text>
-<text x="4.97" y="-0.75" size="0.254" layer="51">21</text>
-<text x="4.95" y="-1.33" size="0.254" layer="51">22</text>
-<text x="4.98" y="-1.93" size="0.254" layer="51">23</text>
-<text x="4.95" y="-2.51" size="0.254" layer="51">24</text>
-<text x="4.93" y="-3.09" size="0.254" layer="51">25</text>
-<text x="2.88" y="-5.18" size="0.254" layer="51">28</text>
-<text x="2.25" y="-5.18" size="0.254" layer="51">29</text>
-<text x="1.64" y="-5.15" size="0.254" layer="51">30</text>
-<text x="1" y="-5.23" size="0.254" layer="51">31</text>
-<text x="0.48" y="-5.21" size="0.254" layer="51">32</text>
-<text x="-0.13" y="-5.23" size="0.254" layer="51">33</text>
-<text x="-0.77" y="-5.23" size="0.254" layer="51">34</text>
-<text x="-1.35" y="-5.26" size="0.254" layer="51">35</text>
-<text x="-1.93" y="-5.26" size="0.254" layer="51">36</text>
-<text x="-2.56" y="-5.31" size="0.254" layer="51">37</text>
-<text x="-3.12" y="-5.21" size="0.254" layer="51">38</text>
-<text x="-5.31" y="-3.2" size="0.254" layer="51">41</text>
-<text x="-5.34" y="-2.48" size="0.254" layer="51">42</text>
-<text x="-5.36" y="-1.85" size="0.254" layer="51">43</text>
-<text x="-5.31" y="-1.3" size="0.254" layer="51">44</text>
-<text x="-5.23" y="-0.69" size="0.254" layer="51">45</text>
-<text x="-5.23" y="-0.13" size="0.254" layer="51">46</text>
-<text x="-5.28" y="0.48" size="0.254" layer="51">47</text>
-<text x="-5.26" y="1.06" size="0.254" layer="51">48</text>
-<text x="-5.23" y="1.67" size="0.254" layer="51">49</text>
-<text x="-5.31" y="2.27" size="0.254" layer="51">50</text>
-<text x="-5.31" y="2.93" size="0.254" layer="51">51</text>
-<text x="-2.93" y="3.01" size="0.254" layer="51">1</text>
-<text x="-2.545" y="3.025" size="0.254" layer="51">2</text>
-<text x="-2.03" y="3.07" size="0.254" layer="51">3</text>
-<text x="-1.44" y="3.09" size="0.254" layer="51">4</text>
-<text x="-0.89" y="3.01" size="0.254" layer="51">5</text>
-<text x="-0.31" y="3.07" size="0.254" layer="51">6</text>
-<text x="0.16" y="3.04" size="0.254" layer="51">7</text>
-<text x="0.72" y="3.05" size="0.254" layer="51">8</text>
-<text x="1.28" y="3.07" size="0.254" layer="51">9</text>
-<text x="1.68" y="3.06" size="0.254" layer="51">10</text>
-<text x="2.3" y="3.11" size="0.254" layer="51">11</text>
-<text x="2.78" y="3.09" size="0.254" layer="51">12</text>
-<text x="2.95" y="2.88" size="0.254" layer="51">13</text>
-<text x="2.92" y="2.35" size="0.254" layer="51">14</text>
-<text x="2.9" y="1.83" size="0.254" layer="51">15</text>
-<text x="2.86" y="1.28" size="0.254" layer="51">16</text>
-<text x="2.91" y="0.71" size="0.254" layer="51">17</text>
-<text x="2.92" y="0.21" size="0.254" layer="51">18</text>
-<text x="2.95" y="-0.41" size="0.254" layer="51">19</text>
-<text x="2.98" y="-0.94" size="0.254" layer="51">20</text>
-<text x="2.99" y="-1.48" size="0.254" layer="51">21</text>
-<text x="2.97" y="-2.02" size="0.254" layer="51">22</text>
-<text x="2.96" y="-2.57" size="0.254" layer="51">23</text>
-<text x="2.97" y="-3.1" size="0.254" layer="51">24</text>
-<text x="2.84" y="-3.3" size="0.254" layer="51">25</text>
-<text x="2.3" y="-3.24" size="0.254" layer="51">26</text>
-<text x="1.77" y="-3.21" size="0.254" layer="51">27</text>
-<text x="1.24" y="-3.2" size="0.254" layer="51">28</text>
-<text x="0.74" y="-3.17" size="0.254" layer="51">29</text>
-<text x="0.18" y="-3.22" size="0.254" layer="51">30</text>
-<text x="-0.29" y="-3.22" size="0.254" layer="51">31</text>
-<text x="-0.92" y="-3.23" size="0.254" layer="51">32</text>
-<text x="-1.45" y="-3.25" size="0.254" layer="51">33</text>
-<text x="-1.96" y="-3.22" size="0.254" layer="51">34</text>
-<text x="-2.52" y="-3.23" size="0.254" layer="51">35</text>
-<text x="-2.99" y="-3.22" size="0.254" layer="51">36</text>
-<text x="-3.31" y="-2.6" size="0.254" layer="51">38</text>
-<text x="-3.17" y="-2.09" size="0.254" layer="51">39</text>
-<text x="-3.28" y="-1.45" size="0.254" layer="51">40</text>
-<text x="-3.28" y="-0.92" size="0.254" layer="51">41</text>
-<text x="-3.26" y="-0.4" size="0.254" layer="51">42</text>
-<text x="-3.24" y="0.16" size="0.254" layer="51">43</text>
-<text x="-3.25" y="0.7" size="0.254" layer="51">44</text>
-<text x="-3.24" y="1.3" size="0.254" layer="51">45</text>
-<text x="-3.23" y="1.81" size="0.254" layer="51">46</text>
-<text x="-3.27" y="2.42" size="0.254" layer="51">47</text>
-<text x="-3.34" y="2.96" size="0.254" layer="51">48</text>
+<package name="R_A_DIP">
+<pad name="9" x="0" y="4" drill="0.7"/>
+<pad name="8" x="0" y="2" drill="0.7"/>
+<pad name="7" x="0" y="0" drill="0.7"/>
+<pad name="6" x="0" y="-2" drill="0.7"/>
+<pad name="5" x="0" y="-4" drill="0.7"/>
+<pad name="2" x="-1.5" y="1" drill="0.7"/>
+<pad name="3" x="-1.5" y="-1" drill="0.7"/>
+<pad name="1" x="-1.5" y="3.5" drill="0.7"/>
+<pad name="4" x="-1.5" y="-3.5" drill="0.7"/>
+<pad name="SHIELD" x="-3.5" y="6.57" drill="2.3"/>
+<pad name="SHIELD@1" x="-3.5" y="-6.57" drill="2.3"/>
+<text x="-2.54" y="3.175" size="0.4064" layer="51">1</text>
+<text x="-2.54" y="0.635" size="0.4064" layer="51">2</text>
+<text x="-2.54" y="-1.27" size="0.4064" layer="51">3</text>
+<text x="-2.54" y="-3.81" size="0.4064" layer="51">4</text>
+<text x="1.27" y="-4.445" size="0.4064" layer="51">5</text>
+<text x="1.27" y="-2.54" size="0.4064" layer="51">6</text>
+<text x="1.27" y="0" size="0.4064" layer="51">7</text>
+<text x="1.27" y="1.905" size="0.4064" layer="51">8</text>
+<text x="1.27" y="3.81" size="0.4064" layer="51">9</text>
+<wire x1="-15.59" y1="-6.065" x2="-15.59" y2="5.715" width="0.127" layer="51"/>
+<text x="-15.875" y="-1.27" size="0.4064" layer="51" rot="R90">PCB EDGE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="CLCK_RST">
-<pin name="GRSTZ" x="5.08" y="5.08" length="middle" rot="R180"/>
-<pin name="XI" x="5.08" y="2.54" length="middle" rot="R180"/>
-<pin name="XO" x="5.08" y="0" length="middle" rot="R180"/>
-<pin name="VSSOSC" x="5.08" y="-2.54" length="middle" rot="R180"/>
-<wire x1="-15.24" y1="10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
-<wire x1="0" y1="10.16" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
-<text x="-12.7" y="12.7" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="I2C_SMBUS">
-<pin name="SDA_SMBDAT" x="5.08" y="0" length="middle" rot="R180"/>
-<pin name="SCL_SMBCLK" x="5.08" y="2.54" length="middle" rot="R180"/>
-<pin name="SMBUSZ" x="5.08" y="-2.54" length="middle" rot="R180"/>
-<wire x1="-20.32" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="-20.32" y2="-7.62" width="0.254" layer="94"/>
-<text x="-17.78" y="10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="-17.78" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="POWER">
-<description>TUSB8040A1 Power Pins</description>
-<pin name="VDD11@4" x="22.86" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@3" x="22.86" y="0" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@2" x="22.86" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@1" x="22.86" y="5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11" x="22.86" y="7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD33@9" x="22.86" y="12.7" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD33@8" x="22.86" y="15.24" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD33@7" x="22.86" y="17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD33@6" x="22.86" y="20.32" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD33@5" x="22.86" y="22.86" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD33@4" x="22.86" y="25.4" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD33@3" x="22.86" y="27.94" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD33@2" x="22.86" y="30.48" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD33@1" x="22.86" y="33.02" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@5" x="22.86" y="-5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@6" x="22.86" y="-7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@7" x="22.86" y="-10.16" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@8" x="22.86" y="-12.7" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@9" x="22.86" y="-15.24" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@10" x="22.86" y="-17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@11" x="22.86" y="-20.32" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@12" x="22.86" y="-22.86" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@13" x="22.86" y="-25.4" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@14" x="22.86" y="-27.94" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@15" x="22.86" y="-30.48" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD11@16" x="22.86" y="-33.02" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDD33" x="22.86" y="35.56" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND@17" x="-22.86" y="0" length="middle" direction="pwr"/>
-<pin name="GND" x="-22.86" y="2.54" length="middle" direction="pwr"/>
-<pin name="C4" x="-22.86" y="7.62" length="middle" direction="pwr"/>
-<pin name="C3" x="-22.86" y="10.16" length="middle" direction="pwr"/>
-<pin name="C2" x="-22.86" y="12.7" length="middle" direction="pwr"/>
-<pin name="C1" x="-22.86" y="15.24" length="middle" direction="pwr"/>
-<pin name="NC@3" x="-22.86" y="20.32" length="middle" direction="nc"/>
-<pin name="NC@2" x="-22.86" y="22.86" length="middle" direction="nc"/>
-<pin name="NC@1" x="-22.86" y="25.4" length="middle" direction="nc"/>
-<pin name="NC" x="-22.86" y="27.94" length="middle" direction="nc"/>
-<wire x1="17.78" y1="40.64" x2="17.78" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-48.26" x2="-17.78" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-48.26" x2="-17.78" y2="40.64" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="40.64" x2="17.78" y2="40.64" width="0.254" layer="94"/>
-<text x="-15.24" y="43.18" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-53.34" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="TP" x="-22.86" y="-5.08" length="middle"/>
-<pin name="TP@1" x="-22.86" y="-7.62" length="middle"/>
-<pin name="TP@2" x="-22.86" y="-10.16" length="middle"/>
-<pin name="TP@3" x="-22.86" y="-12.7" length="middle"/>
-<pin name="TP@4" x="-22.86" y="-15.24" length="middle"/>
-<pin name="TP@5" x="-22.86" y="-17.78" length="middle"/>
-<pin name="TP@6" x="-22.86" y="-20.32" length="middle"/>
-<pin name="TP@7" x="-22.86" y="-22.86" length="middle"/>
-<pin name="TP@8" x="-22.86" y="-25.4" length="middle"/>
-<pin name="TP@9" x="-22.86" y="-27.94" length="middle"/>
-<pin name="TP@10" x="-22.86" y="-30.48" length="middle"/>
-<pin name="TP@11" x="-22.86" y="-33.02" length="middle"/>
-<pin name="TP@12" x="-22.86" y="-35.56" length="middle"/>
-<pin name="TP@13" x="-22.86" y="-38.1" length="middle"/>
-<pin name="TP@14" x="-22.86" y="-40.64" length="middle"/>
-<pin name="TP@15" x="-22.86" y="-43.18" length="middle"/>
-</symbol>
-<symbol name="TEST_MISC">
-<pin name="HS" x="5.08" y="-2.54" length="middle" rot="R180"/>
-<pin name="HS_SUSPEND" x="5.08" y="2.54" length="middle" rot="R180"/>
-<pin name="JTAG_RSTZ" x="5.08" y="5.08" length="middle" rot="R180"/>
-<pin name="JTAG_TMS" x="5.08" y="7.62" length="middle" rot="R180"/>
-<pin name="JTAG_TDO" x="5.08" y="10.16" length="middle" rot="R180"/>
-<pin name="JTAG_TDI" x="5.08" y="12.7" length="middle" rot="R180"/>
-<pin name="JTAG_TCK" x="5.08" y="15.24" length="middle" rot="R180"/>
-<pin name="SS" x="5.08" y="-5.08" length="middle" rot="R180"/>
-<pin name="FULLPWRMGMTZ_SMBA1" x="5.08" y="-7.62" length="middle" rot="R180"/>
-<pin name="GANGED_SMBA2" x="5.08" y="-10.16" length="middle" rot="R180"/>
-<pin name="PORTINDZ_SMBA3" x="5.08" y="-12.7" length="middle" rot="R180"/>
-<pin name="SS_SUSPEND" x="5.08" y="0" length="middle" rot="R180"/>
-<wire x1="-35.56" y1="20.32" x2="0" y2="20.32" width="0.254" layer="94"/>
-<wire x1="0" y1="20.32" x2="0" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="0" y1="-17.78" x2="-35.56" y2="-17.78" width="0.254" layer="94"/>
-<text x="-33.02" y="22.86" size="1.778" layer="95">&gt;NAME</text>
-<text x="-33.02" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="USB_DOWN">
-<pin name="LEDG3Z_USED3" x="38.1" y="-22.86" length="middle" rot="R180"/>
-<pin name="LEDG2Z_USED2" x="38.1" y="-20.32" length="middle" rot="R180"/>
-<pin name="LEDG1Z_USED1" x="38.1" y="-17.78" length="middle" rot="R180"/>
-<pin name="LEDG0Z_USED0" x="38.1" y="-15.24" length="middle" rot="R180"/>
-<pin name="LEDA3Z_RMBL3" x="38.1" y="-12.7" length="middle" rot="R180"/>
-<pin name="LEDA2Z_RMBL2" x="38.1" y="-10.16" length="middle" rot="R180"/>
-<pin name="LEDA1Z_RMBL1" x="38.1" y="-7.62" length="middle" rot="R180"/>
-<pin name="LEDA0Z_RMBL0" x="38.1" y="-5.08" length="middle" rot="R180"/>
-<pin name="OVERCUR3Z" x="38.1" y="-2.54" length="middle" rot="R180"/>
-<pin name="PWRON3Z_BATEN3" x="38.1" y="0" length="middle" rot="R180"/>
-<pin name="USB_DM_DN3" x="38.1" y="2.54" length="middle" rot="R180"/>
-<pin name="USB_DP_DN3" x="38.1" y="5.08" length="middle" rot="R180"/>
-<pin name="USB_SSRXM_DN3" x="38.1" y="7.62" length="middle" rot="R180"/>
-<pin name="USB_SSRXP_DN3" x="38.1" y="10.16" length="middle" rot="R180"/>
-<pin name="USB_SSTXM_DN3" x="38.1" y="12.7" length="middle" rot="R180"/>
-<pin name="USB_SSTXP_DN3" x="38.1" y="15.24" length="middle" rot="R180"/>
-<pin name="OVERCUR2Z" x="38.1" y="17.78" length="middle" rot="R180"/>
-<pin name="PWRON2Z_BATEN2" x="38.1" y="20.32" length="middle" rot="R180"/>
-<pin name="USB_DM_DN2" x="38.1" y="22.86" length="middle" rot="R180"/>
-<pin name="USB_DP_DN2" x="38.1" y="25.4" length="middle" rot="R180"/>
-<pin name="USB_SSRXM_DN2" x="-38.1" y="-22.86" length="middle"/>
-<pin name="USB_SSRXP_DN2" x="-38.1" y="-20.32" length="middle"/>
-<pin name="USB_SSTXM_DN2" x="-38.1" y="-17.78" length="middle"/>
-<pin name="USB_SSTXP_DN2" x="-38.1" y="-15.24" length="middle"/>
-<pin name="OVERCUR1Z" x="-38.1" y="-12.7" length="middle"/>
-<pin name="PWRON1Z_BATEN1" x="-38.1" y="-10.16" length="middle"/>
-<pin name="USB_DM_DN1" x="-38.1" y="-7.62" length="middle"/>
-<pin name="USB_DP_DN1" x="-38.1" y="-5.08" length="middle"/>
-<pin name="USB_SSRXM_DN1" x="-38.1" y="-2.54" length="middle"/>
-<pin name="USB_SSRXP_DN1" x="-38.1" y="0" length="middle"/>
-<pin name="USB_SSTXM_DN1" x="-38.1" y="2.54" length="middle"/>
-<pin name="USB_SSTXP_DN1" x="-38.1" y="5.08" length="middle"/>
-<pin name="OVERCUR0Z" x="-38.1" y="7.62" length="middle"/>
-<pin name="PWRON0Z_BATEN0" x="-38.1" y="10.16" length="middle"/>
-<pin name="USB_DM_DN0" x="-38.1" y="12.7" length="middle"/>
-<pin name="USB_DP_DN0" x="-38.1" y="15.24" length="middle"/>
-<pin name="USB_SSRXM_DN0" x="-38.1" y="17.78" length="middle"/>
-<pin name="USB_SSRXP_DN0" x="-38.1" y="20.32" length="middle"/>
-<pin name="USB_SSTXM_DN0" x="-38.1" y="22.86" length="middle"/>
-<pin name="USB_SSTXP_DN0" x="-38.1" y="25.4" length="middle"/>
-<wire x1="-33.02" y1="30.48" x2="33.02" y2="30.48" width="0.254" layer="94"/>
-<wire x1="33.02" y1="30.48" x2="33.02" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-27.94" x2="-33.02" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="-33.02" y1="-27.94" x2="-33.02" y2="30.48" width="0.254" layer="94"/>
-<text x="-30.48" y="33.02" size="1.778" layer="95">&gt;NAME</text>
-<text x="-30.48" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="USB_UP">
-<pin name="USB_DP_UP" x="5.08" y="0" length="middle" rot="R180"/>
-<pin name="USB_SSRXM_UP" x="5.08" y="2.54" length="middle" rot="R180"/>
-<pin name="USB_SSRXP_UP" x="5.08" y="5.08" length="middle" rot="R180"/>
-<pin name="USB_SSTXM_UP" x="5.08" y="7.62" length="middle" rot="R180"/>
-<pin name="USB_SSTXP_UP" x="5.08" y="10.16" length="middle" rot="R180"/>
-<pin name="USB_DM_UP" x="5.08" y="-2.54" length="middle" rot="R180"/>
-<pin name="USB_R1" x="5.08" y="-5.08" length="middle" rot="R180"/>
-<pin name="USB_R1_RTN" x="5.08" y="-7.62" length="middle" rot="R180"/>
-<pin name="USB_VBUS" x="5.08" y="-10.16" length="middle" rot="R180"/>
-<wire x1="-25.4" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<symbol name="USB_SS_TYPE_A">
+<pin name="USB_SSRXM" x="5.08" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="5.08" y="2.54" length="middle" rot="R180"/>
+<pin name="DP" x="5.08" y="5.08" length="middle" rot="R180"/>
+<pin name="DM" x="5.08" y="7.62" length="middle" rot="R180"/>
+<pin name="VBUS" x="5.08" y="10.16" length="middle" rot="R180"/>
+<pin name="USB_SSRXP" x="5.08" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND_DRAIN" x="5.08" y="-5.08" length="middle" rot="R180"/>
+<pin name="USB_SSTXM" x="5.08" y="-7.62" length="middle" rot="R180"/>
+<pin name="USB_SSTXP" x="5.08" y="-10.16" length="middle" rot="R180"/>
+<pin name="SHIELD" x="-35.56" y="2.54" length="middle"/>
+<wire x1="-30.48" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
 <wire x1="0" y1="15.24" x2="0" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="-15.24" x2="-25.4" y2="-15.24" width="0.254" layer="94"/>
-<text x="-22.86" y="17.78" size="1.778" layer="95">&gt;NAME</text>
-<text x="-22.86" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="-15.24" x2="-30.48" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-15.24" x2="-30.48" y2="15.24" width="0.254" layer="94"/>
+<pin name="SHIELD@1" x="-35.56" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TUSB8040A1" uservalue="yes">
+<deviceset name="USB_SS_CONN_TYPE_A">
+<description>USB 3 SuperSpeed Type A connector, through hole design.</description>
 <gates>
-<gate name="G$1" symbol="CLCK_RST" x="-35.56" y="38.1"/>
-<gate name="G$2" symbol="I2C_SMBUS" x="-5.08" y="40.64"/>
-<gate name="G$3" symbol="POWER" x="27.94" y="10.16"/>
-<gate name="G$4" symbol="TEST_MISC" x="-15.24" y="0"/>
-<gate name="G$5" symbol="USB_DOWN" x="-33.02" y="-58.42"/>
-<gate name="G$6" symbol="USB_UP" x="50.8" y="-60.96"/>
+<gate name="G$1" symbol="USB_SS_TYPE_A" x="12.7" y="0"/>
 </gates>
 <devices>
-<device name="" package="S-PWQFN-N100">
+<device name="" package="R_A_DIP">
 <connects>
-<connect gate="G$1" pin="GRSTZ" pad="GRSTZ"/>
-<connect gate="G$1" pin="VSSOSC" pad="VSSOSC"/>
-<connect gate="G$1" pin="XI" pad="XI"/>
-<connect gate="G$1" pin="XO" pad="XO"/>
-<connect gate="G$2" pin="SCL_SMBCLK" pad="SCL_SMBCLK"/>
-<connect gate="G$2" pin="SDA_SMBDAT" pad="SDA_SMBDAT"/>
-<connect gate="G$2" pin="SMBUSZ" pad="SMBUSZ"/>
-<connect gate="G$3" pin="C1" pad="GND@18"/>
-<connect gate="G$3" pin="C2" pad="GND@19"/>
-<connect gate="G$3" pin="C3" pad="GND@20"/>
-<connect gate="G$3" pin="C4" pad="GND@21"/>
-<connect gate="G$3" pin="GND" pad="GND"/>
-<connect gate="G$3" pin="GND@17" pad="GND@17"/>
-<connect gate="G$3" pin="NC" pad="NC_0"/>
-<connect gate="G$3" pin="NC@1" pad="NC_1"/>
-<connect gate="G$3" pin="NC@2" pad="NC_2"/>
-<connect gate="G$3" pin="NC@3" pad="NC_3"/>
-<connect gate="G$3" pin="TP" pad="GND@1"/>
-<connect gate="G$3" pin="TP@1" pad="GND@2"/>
-<connect gate="G$3" pin="TP@10" pad="GND@11"/>
-<connect gate="G$3" pin="TP@11" pad="GND@12"/>
-<connect gate="G$3" pin="TP@12" pad="GND@13"/>
-<connect gate="G$3" pin="TP@13" pad="GND@14"/>
-<connect gate="G$3" pin="TP@14" pad="GND@15"/>
-<connect gate="G$3" pin="TP@15" pad="GND@16"/>
-<connect gate="G$3" pin="TP@2" pad="GND@3"/>
-<connect gate="G$3" pin="TP@3" pad="GND@4"/>
-<connect gate="G$3" pin="TP@4" pad="GND@5"/>
-<connect gate="G$3" pin="TP@5" pad="GND@6"/>
-<connect gate="G$3" pin="TP@6" pad="GND@7"/>
-<connect gate="G$3" pin="TP@7" pad="GND@8"/>
-<connect gate="G$3" pin="TP@8" pad="GND@9"/>
-<connect gate="G$3" pin="TP@9" pad="GND@10"/>
-<connect gate="G$3" pin="VDD11" pad="VDD11_0"/>
-<connect gate="G$3" pin="VDD11@1" pad="VDD11_1"/>
-<connect gate="G$3" pin="VDD11@10" pad="VDD11_10"/>
-<connect gate="G$3" pin="VDD11@11" pad="VDD11_11"/>
-<connect gate="G$3" pin="VDD11@12" pad="VDD11_12"/>
-<connect gate="G$3" pin="VDD11@13" pad="VDD11_13"/>
-<connect gate="G$3" pin="VDD11@14" pad="VDD11_14"/>
-<connect gate="G$3" pin="VDD11@15" pad="VDD11_15"/>
-<connect gate="G$3" pin="VDD11@16" pad="VDD11_16"/>
-<connect gate="G$3" pin="VDD11@2" pad="VDD11_2"/>
-<connect gate="G$3" pin="VDD11@3" pad="VDD11_3"/>
-<connect gate="G$3" pin="VDD11@4" pad="VDD11_4"/>
-<connect gate="G$3" pin="VDD11@5" pad="VDD11_5"/>
-<connect gate="G$3" pin="VDD11@6" pad="VDD11_6"/>
-<connect gate="G$3" pin="VDD11@7" pad="VDD11_7"/>
-<connect gate="G$3" pin="VDD11@8" pad="VDD11_8"/>
-<connect gate="G$3" pin="VDD11@9" pad="VDD11_9"/>
-<connect gate="G$3" pin="VDD33" pad="VDD33_0"/>
-<connect gate="G$3" pin="VDD33@1" pad="VDD33_1"/>
-<connect gate="G$3" pin="VDD33@2" pad="VDD33_2"/>
-<connect gate="G$3" pin="VDD33@3" pad="VDD33_3"/>
-<connect gate="G$3" pin="VDD33@4" pad="VDD33_4"/>
-<connect gate="G$3" pin="VDD33@5" pad="VDD33_5"/>
-<connect gate="G$3" pin="VDD33@6" pad="VDD33_6"/>
-<connect gate="G$3" pin="VDD33@7" pad="VDD33_7"/>
-<connect gate="G$3" pin="VDD33@8" pad="VDD33_8"/>
-<connect gate="G$3" pin="VDD33@9" pad="VDD33_9"/>
-<connect gate="G$4" pin="FULLPWRMGMTZ_SMBA1" pad="FULLPWRMGMTZ_SMBA1"/>
-<connect gate="G$4" pin="GANGED_SMBA2" pad="GANGED_SMBA2"/>
-<connect gate="G$4" pin="HS" pad="HS"/>
-<connect gate="G$4" pin="HS_SUSPEND" pad="HS_SUSPEND"/>
-<connect gate="G$4" pin="JTAG_RSTZ" pad="JTAG_RSTZ"/>
-<connect gate="G$4" pin="JTAG_TCK" pad="JTAG_TCK"/>
-<connect gate="G$4" pin="JTAG_TDI" pad="JTAG_TDI"/>
-<connect gate="G$4" pin="JTAG_TDO" pad="JTAG_TDO"/>
-<connect gate="G$4" pin="JTAG_TMS" pad="JTAG_TMS"/>
-<connect gate="G$4" pin="PORTINDZ_SMBA3" pad="PORTINDZ_SMBA3"/>
-<connect gate="G$4" pin="SS" pad="SS"/>
-<connect gate="G$4" pin="SS_SUSPEND" pad="SS_SUSPEND"/>
-<connect gate="G$5" pin="LEDA0Z_RMBL0" pad="LEDA0Z_RMBL0"/>
-<connect gate="G$5" pin="LEDA1Z_RMBL1" pad="LEDA1Z_RMBL1"/>
-<connect gate="G$5" pin="LEDA2Z_RMBL2" pad="LEDA2Z_RMBL2"/>
-<connect gate="G$5" pin="LEDA3Z_RMBL3" pad="LEDA3Z_RMBL3"/>
-<connect gate="G$5" pin="LEDG0Z_USED0" pad="LEDG0Z_USED0"/>
-<connect gate="G$5" pin="LEDG1Z_USED1" pad="LEDG1Z_USED1"/>
-<connect gate="G$5" pin="LEDG2Z_USED2" pad="LEDG2Z_USED2"/>
-<connect gate="G$5" pin="LEDG3Z_USED3" pad="LEDG3Z_USED3"/>
-<connect gate="G$5" pin="OVERCUR0Z" pad="OVERCUR0Z"/>
-<connect gate="G$5" pin="OVERCUR1Z" pad="OVERCUR1Z"/>
-<connect gate="G$5" pin="OVERCUR2Z" pad="OVERCUR2Z"/>
-<connect gate="G$5" pin="OVERCUR3Z" pad="OVERCUR3Z"/>
-<connect gate="G$5" pin="PWRON0Z_BATEN0" pad="PWRON0Z_BATEN0"/>
-<connect gate="G$5" pin="PWRON1Z_BATEN1" pad="PWRON1Z_BATEN1"/>
-<connect gate="G$5" pin="PWRON2Z_BATEN2" pad="PWRON2Z_BATEN2"/>
-<connect gate="G$5" pin="PWRON3Z_BATEN3" pad="PWRON3Z_BATEN3"/>
-<connect gate="G$5" pin="USB_DM_DN0" pad="USB_DM_DN0"/>
-<connect gate="G$5" pin="USB_DM_DN1" pad="USB_DM_DN1"/>
-<connect gate="G$5" pin="USB_DM_DN2" pad="USB_DM_DN2"/>
-<connect gate="G$5" pin="USB_DM_DN3" pad="USB_DM_DN3"/>
-<connect gate="G$5" pin="USB_DP_DN0" pad="USB_DP_DN0"/>
-<connect gate="G$5" pin="USB_DP_DN1" pad="USB_DP_DN1"/>
-<connect gate="G$5" pin="USB_DP_DN2" pad="USB_DP_DN2"/>
-<connect gate="G$5" pin="USB_DP_DN3" pad="USB_DP_DN3"/>
-<connect gate="G$5" pin="USB_SSRXM_DN0" pad="USB_SSRXM_DN0"/>
-<connect gate="G$5" pin="USB_SSRXM_DN1" pad="USB_SSRXM_DN1"/>
-<connect gate="G$5" pin="USB_SSRXM_DN2" pad="USB_SSRXM_DN2"/>
-<connect gate="G$5" pin="USB_SSRXM_DN3" pad="USB_SSRXM_DN3"/>
-<connect gate="G$5" pin="USB_SSRXP_DN0" pad="USB_SSRXP_DN0"/>
-<connect gate="G$5" pin="USB_SSRXP_DN1" pad="USB_SSRXP_DN1"/>
-<connect gate="G$5" pin="USB_SSRXP_DN2" pad="USB_SSRXP_DN2"/>
-<connect gate="G$5" pin="USB_SSRXP_DN3" pad="USB_SSRXP_DN3"/>
-<connect gate="G$5" pin="USB_SSTXM_DN0" pad="USB_SSTXM_DN0"/>
-<connect gate="G$5" pin="USB_SSTXM_DN1" pad="USB_SSTXM_DN1"/>
-<connect gate="G$5" pin="USB_SSTXM_DN2" pad="USB_SSTXM_DN2"/>
-<connect gate="G$5" pin="USB_SSTXM_DN3" pad="USB_SSTXM_DN3"/>
-<connect gate="G$5" pin="USB_SSTXP_DN0" pad="USB_SSTXP_DN0"/>
-<connect gate="G$5" pin="USB_SSTXP_DN1" pad="USB_SSTXP_DN1"/>
-<connect gate="G$5" pin="USB_SSTXP_DN2" pad="USB_SSTXP_DN2"/>
-<connect gate="G$5" pin="USB_SSTXP_DN3" pad="USB_SSTXP_DN3"/>
-<connect gate="G$6" pin="USB_DM_UP" pad="USB_DM_UP"/>
-<connect gate="G$6" pin="USB_DP_UP" pad="USB_DP_UP"/>
-<connect gate="G$6" pin="USB_R1" pad="USB_R1"/>
-<connect gate="G$6" pin="USB_R1_RTN" pad="USB_R1RTN"/>
-<connect gate="G$6" pin="USB_SSRXM_UP" pad="USB_SSRXM_UP"/>
-<connect gate="G$6" pin="USB_SSRXP_UP" pad="USB_SSRXP_UP"/>
-<connect gate="G$6" pin="USB_SSTXM_UP" pad="USB_SSTXM_UP"/>
-<connect gate="G$6" pin="USB_SSTXP_UP" pad="USB_SSTXP_UP"/>
-<connect gate="G$6" pin="USB_VBUS" pad="USB_VBUS"/>
+<connect gate="G$1" pin="DM" pad="2"/>
+<connect gate="G$1" pin="DP" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="GND_DRAIN" pad="7"/>
+<connect gate="G$1" pin="SHIELD" pad="SHIELD"/>
+<connect gate="G$1" pin="SHIELD@1" pad="SHIELD@1"/>
+<connect gate="G$1" pin="USB_SSRXM" pad="5"/>
+<connect gate="G$1" pin="USB_SSRXP" pad="6"/>
+<connect gate="G$1" pin="USB_SSTXM" pad="8"/>
+<connect gate="G$1" pin="USB_SSTXP" pad="9"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="linear-technology">
+<description>&lt;b&gt;Linear Technology Devices&lt;/b&gt;&lt;p&gt;
+http://www.linear-tech.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT223">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="3.2766" y1="1.778" x2="3.2766" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="-1.778" x2="-3.2766" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="-1.778" x2="-3.2766" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="1.778" x2="3.2766" y2="1.778" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="-3.6068" y="-3.302" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.8768" y="-3.302" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LT1129-3">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.032" y="-1.524" size="1.524" layer="95">GND</text>
+<text x="-7.62" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="2.54" length="short" direction="in"/>
+<pin name="OUT" x="10.16" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="GND" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="GND">
+<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<pin name="GND" x="0" y="-2.54" length="short" direction="pwr" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LT1963EST" prefix="IC">
+<description>&lt;b&gt;1.5A, Low Noise, Fast Transient Response LDO Regulator&lt;/b&gt;&lt;p&gt;
+Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</description>
+<gates>
+<gate name="G$1" symbol="LT1129-3" x="0" y="0"/>
+<gate name="G$2" symbol="GND" x="20.32" y="-2.54" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$2" pin="GND" pad="4"/>
+</connects>
+<technologies>
+<technology name="-1.5">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LT1963EST-1.5" constant="no"/>
+<attribute name="OC_FARNELL" value="1663528" constant="no"/>
+<attribute name="OC_NEWARK" value="57M7534" constant="no"/>
+</technology>
+<technology name="-1.8">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LT1963EST-1.8" constant="no"/>
+<attribute name="OC_FARNELL" value="1503436" constant="no"/>
+<attribute name="OC_NEWARK" value="57M7538" constant="no"/>
+</technology>
+<technology name="-2.5">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LT1963EST-2.5" constant="no"/>
+<attribute name="OC_FARNELL" value="1501031" constant="no"/>
+<attribute name="OC_NEWARK" value="57M7542" constant="no"/>
+</technology>
+<technology name="-3.3">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LT1963EST-3.3" constant="no"/>
+<attribute name="OC_FARNELL" value="1501032" constant="no"/>
+<attribute name="OC_NEWARK" value="57M7546" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="tusb8040a1">
+<packages>
+<package name="S-PQFP-G80">
+<smd name="1" x="-4.75" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="2" x="-4.25" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="3" x="-3.75" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="4" x="-3.25" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="5" x="-2.75" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="6" x="-2.25" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="7" x="-1.75" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="8" x="-1.25" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="9" x="-0.75" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="10" x="-0.25" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="11" x="0.25" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="12" x="0.75" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="13" x="1.25" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="14" x="1.75" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="15" x="2.25" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="16" x="2.75" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="17" x="3.25" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="18" x="3.75" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="19" x="4.25" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="20" x="4.75" y="-6.8" dx="0.28" dy="1" layer="1"/>
+<smd name="21" x="6.8" y="-4.75" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="22" x="6.8" y="-4.25" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="23" x="6.8" y="-3.75" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="24" x="6.8" y="-3.25" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="25" x="6.8" y="-2.75" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="26" x="6.8" y="-2.25" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="27" x="6.8" y="-1.75" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="28" x="6.8" y="-1.25" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="29" x="6.8" y="-0.75" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="30" x="6.8" y="-0.25" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="31" x="6.8" y="0.25" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="32" x="6.8" y="0.75" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="33" x="6.8" y="1.25" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="34" x="6.8" y="1.75" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="35" x="6.8" y="2.25" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="36" x="6.8" y="2.75" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="37" x="6.8" y="3.25" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="38" x="6.8" y="3.75" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="39" x="6.8" y="4.25" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="40" x="6.8" y="4.75" dx="0.28" dy="1" layer="1" rot="R90"/>
+<smd name="41" x="4.75" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="42" x="4.25" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="43" x="3.75" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="44" x="3.25" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="45" x="2.75" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="46" x="2.25" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="47" x="1.75" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="48" x="1.25" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="49" x="0.75" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="50" x="0.25" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="51" x="-0.25" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="52" x="-0.75" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="53" x="-1.25" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="54" x="-1.75" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="55" x="-2.25" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="56" x="-2.75" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="57" x="-3.25" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="58" x="-3.75" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="59" x="-4.25" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="60" x="-4.75" y="6.8" dx="0.28" dy="1" layer="1" rot="R180"/>
+<smd name="61" x="-6.8" y="4.75" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="62" x="-6.8" y="4.25" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="63" x="-6.8" y="3.75" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="64" x="-6.8" y="3.25" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="65" x="-6.8" y="2.75" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="66" x="-6.8" y="2.25" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="67" x="-6.8" y="1.75" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="68" x="-6.8" y="1.25" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="69" x="-6.8" y="0.75" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="70" x="-6.8" y="0.25" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="71" x="-6.8" y="-0.25" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="72" x="-6.8" y="-0.75" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="73" x="-6.8" y="-1.25" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="74" x="-6.8" y="-1.75" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="75" x="-6.8" y="-2.25" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="76" x="-6.8" y="-2.75" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="77" x="-6.8" y="-3.25" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="78" x="-6.8" y="-3.75" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="79" x="-6.8" y="-4.25" dx="0.28" dy="1" layer="1" rot="R270"/>
+<smd name="80" x="-6.8" y="-4.75" dx="0.28" dy="1" layer="1" rot="R270"/>
+<wire x1="-6.1" y1="6.1" x2="6.1" y2="6.1" width="0.127" layer="21"/>
+<wire x1="6.1" y1="6.1" x2="6.1" y2="-6.1" width="0.127" layer="21"/>
+<wire x1="6.1" y1="-6.1" x2="-6.1" y2="-6.1" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="-6.1" x2="-6.1" y2="6.1" width="0.127" layer="21"/>
+<circle x="-4.7" y="-5.4" radius="0.22360625" width="0.29" layer="21"/>
+<text x="-4.5" y="-7.6" size="0.254" layer="48" rot="R180">1</text>
+<text x="5" y="-7.6" size="0.254" layer="48" rot="R180">20</text>
+<text x="7.6" y="-4.5" size="0.254" layer="48" rot="R270">21</text>
+<text x="7.6" y="5" size="0.254" layer="48" rot="R270">40</text>
+<text x="4.5" y="7.6" size="0.254" layer="48">41</text>
+<text x="-5" y="7.6" size="0.254" layer="48">60</text>
+<text x="-7.6" y="4.5" size="0.254" layer="48" rot="R90">61</text>
+<text x="-7.6" y="-5" size="0.254" layer="48" rot="R90">80</text>
+<text x="-0.6" y="0" size="0.6096" layer="25">&gt;NAME</text>
+<smd name="81" x="0" y="0" dx="4.7" dy="5.8" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TUSB8040PFP">
+<pin name="VDD11@1" x="-60.96" y="25.4" length="middle"/>
+<pin name="USB_DP_DN0" x="-60.96" y="22.86" length="middle"/>
+<pin name="USB_DM_DN0" x="-60.96" y="20.32" length="middle"/>
+<pin name="VDD33@1" x="-60.96" y="17.78" length="middle"/>
+<pin name="VDD11@2" x="-60.96" y="15.24" length="middle"/>
+<pin name="USB_SSRXP_DN0" x="-60.96" y="12.7" length="middle"/>
+<pin name="USB_SSRXM_DN0" x="-60.96" y="10.16" length="middle"/>
+<pin name="USB_SSTXP_DN0" x="-60.96" y="7.62" length="middle"/>
+<pin name="USB_SSTXM_DN0" x="-60.96" y="5.08" length="middle"/>
+<pin name="VDD11@3" x="-60.96" y="2.54" length="middle"/>
+<pin name="VDD11@4" x="-60.96" y="0" length="middle"/>
+<pin name="USB_SSRXP_DN2" x="-60.96" y="-2.54" length="middle"/>
+<pin name="USB_SSRXM_DN2" x="-60.96" y="-5.08" length="middle"/>
+<pin name="USB_SSTXP_DN2" x="-60.96" y="-7.62" length="middle"/>
+<pin name="USB_SSTXM_DN2" x="-60.96" y="-10.16" length="middle"/>
+<pin name="VDD11@5" x="-60.96" y="-12.7" length="middle"/>
+<pin name="USB_DP_DN2" x="-60.96" y="-15.24" length="middle"/>
+<pin name="USB_DM_DN2" x="-60.96" y="-17.78" length="middle"/>
+<pin name="VDD33@2" x="-60.96" y="-20.32" length="middle"/>
+<pin name="VDD11@6" x="-60.96" y="-22.86" length="middle"/>
+<pin name="VDD33@3" x="-22.86" y="-38.1" length="middle" rot="R90"/>
+<pin name="HS" x="-20.32" y="-38.1" length="middle" rot="R90"/>
+<pin name="SS" x="-17.78" y="-38.1" length="middle" rot="R90"/>
+<pin name="HS_SUSPEND" x="-15.24" y="-38.1" length="middle" rot="R90"/>
+<pin name="SS_SUSPEND" x="-12.7" y="-38.1" length="middle" rot="R90"/>
+<pin name="VDD11@7" x="-10.16" y="-38.1" length="middle" rot="R90"/>
+<pin name="JTAG_TCK" x="-7.62" y="-38.1" length="middle" rot="R90"/>
+<pin name="JTAG_TMS" x="-5.08" y="-38.1" length="middle" rot="R90"/>
+<pin name="JTAG_TDO" x="-2.54" y="-38.1" length="middle" rot="R90"/>
+<pin name="JTAG_RSTZ" x="0" y="-38.1" length="middle" rot="R90"/>
+<pin name="JTAG_TDI" x="2.54" y="-38.1" length="middle" rot="R90"/>
+<pin name="VDD11@8" x="5.08" y="-38.1" length="middle" rot="R90"/>
+<pin name="GRSTZ" x="7.62" y="-38.1" length="middle" rot="R90"/>
+<pin name="SCL/SMBCLK" x="10.16" y="-38.1" length="middle" rot="R90"/>
+<pin name="SDA/SMBDAT" x="12.7" y="-38.1" length="middle" rot="R90"/>
+<pin name="SMBUSZ" x="15.24" y="-38.1" length="middle" rot="R90"/>
+<pin name="VDD11@9" x="17.78" y="-38.1" length="middle" rot="R90"/>
+<pin name="VDD33@4" x="20.32" y="-38.1" length="middle" rot="R90"/>
+<pin name="PWRON0Z_BATEN0" x="22.86" y="-38.1" length="middle" rot="R90"/>
+<pin name="OVERCUR0Z" x="25.4" y="-38.1" length="middle" rot="R90"/>
+<pin name="FULLPWRMGMTZ_SMBA1" x="63.5" y="-22.86" length="middle" rot="R180"/>
+<pin name="VDD11@10" x="63.5" y="-20.32" length="middle" rot="R180"/>
+<pin name="VDD33@5" x="63.5" y="-17.78" length="middle" rot="R180"/>
+<pin name="USB_DM_DN3" x="63.5" y="-15.24" length="middle" rot="R180"/>
+<pin name="USB_DP_DN3" x="63.5" y="-12.7" length="middle" rot="R180"/>
+<pin name="VDD11@11" x="63.5" y="-10.16" length="middle" rot="R180"/>
+<pin name="USB_SSRXP_DN3" x="63.5" y="-7.62" length="middle" rot="R180"/>
+<pin name="USB_SSRXM_DN3" x="63.5" y="-5.08" length="middle" rot="R180"/>
+<pin name="USB_SSTXP_DN3" x="63.5" y="-2.54" length="middle" rot="R180"/>
+<pin name="USB_SSTXM_DN3" x="63.5" y="0" length="middle" rot="R180"/>
+<pin name="VDD11@12" x="63.5" y="2.54" length="middle" rot="R180"/>
+<pin name="VDD11@13" x="63.5" y="5.08" length="middle" rot="R180"/>
+<pin name="USB_SSRXP_DN1" x="63.5" y="7.62" length="middle" rot="R180"/>
+<pin name="USB_SSRXM_DN1" x="63.5" y="10.16" length="middle" rot="R180"/>
+<pin name="USB_SSTXP_DN1" x="63.5" y="12.7" length="middle" rot="R180"/>
+<pin name="USB_SSTXM_DN1" x="63.5" y="15.24" length="middle" rot="R180"/>
+<pin name="VDD11@14" x="63.5" y="17.78" length="middle" rot="R180"/>
+<pin name="VDD33@6" x="63.5" y="20.32" length="middle" rot="R180"/>
+<pin name="USB_DM_DN1" x="63.5" y="22.86" length="middle" rot="R180"/>
+<pin name="USB_DP_DN1" x="63.5" y="25.4" length="middle" rot="R180"/>
+<pin name="VDD11@15" x="25.4" y="40.64" length="middle" rot="R270"/>
+<pin name="USB_SSTXM_UP" x="22.86" y="40.64" length="middle" rot="R270"/>
+<pin name="USB_SSTXP_UP" x="20.32" y="40.64" length="middle" rot="R270"/>
+<pin name="GND" x="17.78" y="40.64" length="middle" rot="R270"/>
+<pin name="USB_SSRXM_UP" x="15.24" y="40.64" length="middle" rot="R270"/>
+<pin name="USB_SSRXP_UP" x="12.7" y="40.64" length="middle" rot="R270"/>
+<pin name="VDD11@16" x="10.16" y="40.64" length="middle" rot="R270"/>
+<pin name="VDD33@7" x="7.62" y="40.64" length="middle" rot="R270"/>
+<pin name="USB_DM_UP" x="5.08" y="40.64" length="middle" rot="R270"/>
+<pin name="USB_DP_UP" x="2.54" y="40.64" length="middle" rot="R270"/>
+<pin name="VDD11@17" x="0" y="40.64" length="middle" rot="R270"/>
+<pin name="VDD33@8" x="-2.54" y="40.64" length="middle" rot="R270"/>
+<pin name="USB_VBUS" x="-5.08" y="40.64" length="middle" rot="R270"/>
+<pin name="XO" x="-7.62" y="40.64" length="middle" rot="R270"/>
+<pin name="VSSOSC" x="-10.16" y="40.64" length="middle" rot="R270"/>
+<pin name="XI" x="-12.7" y="40.64" length="middle" rot="R270"/>
+<pin name="VDD33@9" x="-15.24" y="40.64" length="middle" rot="R270"/>
+<pin name="USB_R1" x="-17.78" y="40.64" length="middle" rot="R270"/>
+<pin name="USB_R1RTN" x="-20.32" y="40.64" length="middle" rot="R270"/>
+<pin name="VDD33@10" x="-22.86" y="40.64" length="middle" rot="R270"/>
+<wire x1="-55.88" y1="35.56" x2="58.42" y2="35.56" width="0.254" layer="94"/>
+<wire x1="58.42" y1="35.56" x2="58.42" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="58.42" y1="-33.02" x2="-55.88" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-55.88" y1="-33.02" x2="-55.88" y2="35.56" width="0.254" layer="94"/>
+<pin name="TP" x="-30.48" y="40.64" length="middle" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TUSB8040PFP">
+<description>TUSB8040 is a 4-port SuperSPeed USB 3.0 hub.</description>
+<gates>
+<gate name="G$1" symbol="TUSB8040PFP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="S-PQFP-G80">
+<connects>
+<connect gate="G$1" pin="FULLPWRMGMTZ_SMBA1" pad="41"/>
+<connect gate="G$1" pin="GND" pad="64"/>
+<connect gate="G$1" pin="GRSTZ" pad="33"/>
+<connect gate="G$1" pin="HS" pad="22"/>
+<connect gate="G$1" pin="HS_SUSPEND" pad="24"/>
+<connect gate="G$1" pin="JTAG_RSTZ" pad="30"/>
+<connect gate="G$1" pin="JTAG_TCK" pad="27"/>
+<connect gate="G$1" pin="JTAG_TDI" pad="31"/>
+<connect gate="G$1" pin="JTAG_TDO" pad="29"/>
+<connect gate="G$1" pin="JTAG_TMS" pad="28"/>
+<connect gate="G$1" pin="OVERCUR0Z" pad="40"/>
+<connect gate="G$1" pin="PWRON0Z_BATEN0" pad="39"/>
+<connect gate="G$1" pin="SCL/SMBCLK" pad="34"/>
+<connect gate="G$1" pin="SDA/SMBDAT" pad="35"/>
+<connect gate="G$1" pin="SMBUSZ" pad="36"/>
+<connect gate="G$1" pin="SS" pad="23"/>
+<connect gate="G$1" pin="SS_SUSPEND" pad="25"/>
+<connect gate="G$1" pin="TP" pad="81"/>
+<connect gate="G$1" pin="USB_DM_DN0" pad="3"/>
+<connect gate="G$1" pin="USB_DM_DN1" pad="59"/>
+<connect gate="G$1" pin="USB_DM_DN2" pad="18"/>
+<connect gate="G$1" pin="USB_DM_DN3" pad="44"/>
+<connect gate="G$1" pin="USB_DM_UP" pad="69"/>
+<connect gate="G$1" pin="USB_DP_DN0" pad="2"/>
+<connect gate="G$1" pin="USB_DP_DN1" pad="60"/>
+<connect gate="G$1" pin="USB_DP_DN2" pad="17"/>
+<connect gate="G$1" pin="USB_DP_DN3" pad="45"/>
+<connect gate="G$1" pin="USB_DP_UP" pad="70"/>
+<connect gate="G$1" pin="USB_R1" pad="78"/>
+<connect gate="G$1" pin="USB_R1RTN" pad="79"/>
+<connect gate="G$1" pin="USB_SSRXM_DN0" pad="7"/>
+<connect gate="G$1" pin="USB_SSRXM_DN1" pad="54"/>
+<connect gate="G$1" pin="USB_SSRXM_DN2" pad="13"/>
+<connect gate="G$1" pin="USB_SSRXM_DN3" pad="48"/>
+<connect gate="G$1" pin="USB_SSRXM_UP" pad="65"/>
+<connect gate="G$1" pin="USB_SSRXP_DN0" pad="6"/>
+<connect gate="G$1" pin="USB_SSRXP_DN1" pad="53"/>
+<connect gate="G$1" pin="USB_SSRXP_DN2" pad="12"/>
+<connect gate="G$1" pin="USB_SSRXP_DN3" pad="47"/>
+<connect gate="G$1" pin="USB_SSRXP_UP" pad="66"/>
+<connect gate="G$1" pin="USB_SSTXM_DN0" pad="9"/>
+<connect gate="G$1" pin="USB_SSTXM_DN1" pad="56"/>
+<connect gate="G$1" pin="USB_SSTXM_DN2" pad="15"/>
+<connect gate="G$1" pin="USB_SSTXM_DN3" pad="50"/>
+<connect gate="G$1" pin="USB_SSTXM_UP" pad="62"/>
+<connect gate="G$1" pin="USB_SSTXP_DN0" pad="8"/>
+<connect gate="G$1" pin="USB_SSTXP_DN1" pad="55"/>
+<connect gate="G$1" pin="USB_SSTXP_DN2" pad="14"/>
+<connect gate="G$1" pin="USB_SSTXP_DN3" pad="49"/>
+<connect gate="G$1" pin="USB_SSTXP_UP" pad="63"/>
+<connect gate="G$1" pin="USB_VBUS" pad="73"/>
+<connect gate="G$1" pin="VDD11@1" pad="1"/>
+<connect gate="G$1" pin="VDD11@10" pad="42"/>
+<connect gate="G$1" pin="VDD11@11" pad="46"/>
+<connect gate="G$1" pin="VDD11@12" pad="51"/>
+<connect gate="G$1" pin="VDD11@13" pad="52"/>
+<connect gate="G$1" pin="VDD11@14" pad="57"/>
+<connect gate="G$1" pin="VDD11@15" pad="61"/>
+<connect gate="G$1" pin="VDD11@16" pad="67"/>
+<connect gate="G$1" pin="VDD11@17" pad="71"/>
+<connect gate="G$1" pin="VDD11@2" pad="5"/>
+<connect gate="G$1" pin="VDD11@3" pad="10"/>
+<connect gate="G$1" pin="VDD11@4" pad="11"/>
+<connect gate="G$1" pin="VDD11@5" pad="16"/>
+<connect gate="G$1" pin="VDD11@6" pad="20"/>
+<connect gate="G$1" pin="VDD11@7" pad="26"/>
+<connect gate="G$1" pin="VDD11@8" pad="32"/>
+<connect gate="G$1" pin="VDD11@9" pad="37"/>
+<connect gate="G$1" pin="VDD33@1" pad="4"/>
+<connect gate="G$1" pin="VDD33@10" pad="80"/>
+<connect gate="G$1" pin="VDD33@2" pad="19"/>
+<connect gate="G$1" pin="VDD33@3" pad="21"/>
+<connect gate="G$1" pin="VDD33@4" pad="38"/>
+<connect gate="G$1" pin="VDD33@5" pad="43"/>
+<connect gate="G$1" pin="VDD33@6" pad="58"/>
+<connect gate="G$1" pin="VDD33@7" pad="68"/>
+<connect gate="G$1" pin="VDD33@8" pad="72"/>
+<connect gate="G$1" pin="VDD33@9" pad="77"/>
+<connect gate="G$1" pin="VSSOSC" pad="75"/>
+<connect gate="G$1" pin="XI" pad="76"/>
+<connect gate="G$1" pin="XO" pad="74"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1143,10 +1042,81 @@ Date:  4/21/14</description>
 </classes>
 <parts>
 <part name="U$1" library="tusb9261pvp" deviceset="TUSB9261PVP" device=""/>
-<part name="U$2" library="tusb8040a1" deviceset="TUSB8040A1" device=""/>
+<part name="U$3" library="usb3_type_a" deviceset="USB_SS_CONN_TYPE_A" device=""/>
+<part name="U$4" library="usb3_type_a" deviceset="USB_SS_CONN_TYPE_A" device=""/>
+<part name="U$5" library="usb3_type_a" deviceset="USB_SS_CONN_TYPE_A" device=""/>
+<part name="IC1" library="linear-technology" deviceset="LT1963EST" device="" technology="-3.3"/>
+<part name="U$2" library="tusb8040a1" deviceset="TUSB8040PFP" device=""/>
 </parts>
 <sheets>
 <sheet>
+<description>Power</description>
+<plain>
+</plain>
+<instances>
+<instance part="IC1" gate="G$1" x="-7.62" y="86.36"/>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>8040 Chip</description>
+<plain>
+</plain>
+<instances>
+<instance part="U$2" gate="G$1" x="2.54" y="0"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="1_P" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_SSTXP_DN0"/>
+<wire x1="-58.42" y1="7.62" x2="-81.28" y2="7.62" width="0.1524" layer="91"/>
+<label x="-81.28" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="1_N" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_SSTXM_DN0"/>
+<wire x1="-58.42" y1="5.08" x2="-81.28" y2="5.08" width="0.1524" layer="91"/>
+<label x="-81.28" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="2_N" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_SSRXM_DN0"/>
+<wire x1="-58.42" y1="10.16" x2="-81.28" y2="10.16" width="0.1524" layer="91"/>
+<label x="-81.28" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="2_P" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_SSRXP_DN0"/>
+<wire x1="-58.42" y1="12.7" x2="-81.28" y2="12.7" width="0.1524" layer="91"/>
+<label x="-81.28" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="3_N" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_DM_DN0"/>
+<wire x1="-58.42" y1="20.32" x2="-81.28" y2="20.32" width="0.1524" layer="91"/>
+<label x="-81.28" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="3_P" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_DP_DN0"/>
+<wire x1="-58.42" y1="22.86" x2="-81.28" y2="22.86" width="0.1524" layer="91"/>
+<label x="-81.28" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<description>9261 Chip</description>
 <plain>
 <text x="-157.48" y="33.02" size="1.778" layer="91">TUSB9261PVP</text>
 </plain>
@@ -1161,18 +1131,90 @@ Date:  4/21/14</description>
 <busses>
 </busses>
 <nets>
+<net name="1_P" class="0">
+<segment>
+<pinref part="U$1" gate="G$6" pin="USB_SSTXP"/>
+<wire x1="2.54" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
+<label x="33.02" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="1_N" class="0">
+<segment>
+<pinref part="U$1" gate="G$6" pin="USB_SSTXM"/>
+<wire x1="2.54" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<label x="33.02" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="2_P" class="0">
+<segment>
+<pinref part="U$1" gate="G$6" pin="USB_SSRXP"/>
+<wire x1="2.54" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
+<label x="33.02" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="2_N" class="0">
+<segment>
+<pinref part="U$1" gate="G$6" pin="USB_SSRXM"/>
+<wire x1="2.54" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
+<label x="33.02" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="3_P" class="0">
+<segment>
+<pinref part="U$1" gate="G$6" pin="USB_DP"/>
+<wire x1="2.54" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
+<label x="33.02" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="3_N" class="0">
+<segment>
+<pinref part="U$1" gate="G$6" pin="USB_DM"/>
+<wire x1="2.54" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
+<label x="33.02" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="7" class="0">
+<segment>
+<pinref part="U$1" gate="G$6" pin="USB_VBUS"/>
+<wire x1="2.54" y1="93.98" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
+<label x="33.02" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="8" class="0">
+<segment>
+<pinref part="U$1" gate="G$6" pin="USB_R1"/>
+<wire x1="2.54" y1="91.44" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
+<label x="33.02" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="9" class="0">
+<segment>
+<pinref part="U$1" gate="G$6" pin="USB_R1RTN"/>
+<wire x1="2.54" y1="88.9" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
+<label x="33.02" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
+<description>USB Ports</description>
 <plain>
 </plain>
 <instances>
-<instance part="U$2" gate="G$1" x="-139.7" y="144.78"/>
-<instance part="U$2" gate="G$2" x="-139.7" y="121.92"/>
-<instance part="U$2" gate="G$3" x="205.74" y="111.76"/>
-<instance part="U$2" gate="G$4" x="-139.7" y="88.9"/>
-<instance part="U$2" gate="G$5" x="40.64" y="124.46"/>
-<instance part="U$2" gate="G$6" x="50.8" y="38.1"/>
+<instance part="U$3" gate="G$1" x="12.7" y="76.2"/>
+<instance part="U$4" gate="G$1" x="78.74" y="76.2"/>
+<instance part="U$5" gate="G$1" x="139.7" y="76.2"/>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>SATA Port</description>
+<plain>
+</plain>
+<instances>
 </instances>
 <busses>
 </busses>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -4566,7 +4567,7 @@ Source: www.cypressindustries.com</description>
 <part name="U$2" library="tusb8040a1" deviceset="TUSB8040PFP" device=""/>
 <part name="C1" library="rcl" deviceset="C-US" device="C0402"/>
 <part name="C2" library="rcl" deviceset="C-US" device="C0402"/>
-<part name="X1" library="con-cypressindustries" deviceset="SATA7-" device="32009-10X"/>
+<part name="X2" library="con-cypressindustries" deviceset="SATA7-" device="32009-10X"/>
 </parts>
 <sheets>
 <sheet>
@@ -4574,7 +4575,10 @@ Source: www.cypressindustries.com</description>
 <plain>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="-7.62" y="86.36"/>
+<instance part="IC1" gate="G$1" x="-7.62" y="86.36" smashed="yes">
+<attribute name="NAME" x="-15.24" y="92.71" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-5.08" y="92.71" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4586,53 +4590,11 @@ Source: www.cypressindustries.com</description>
 <plain>
 </plain>
 <instances>
-<instance part="U$2" gate="G$1" x="2.54" y="0"/>
+<instance part="U$2" gate="G$1" x="2.54" y="0" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="1_P" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="USB_SSTXP_DN0"/>
-<wire x1="-58.42" y1="7.62" x2="-81.28" y2="7.62" width="0.1524" layer="91"/>
-<label x="-81.28" y="7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="1_N" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="USB_SSTXM_DN0"/>
-<wire x1="-58.42" y1="5.08" x2="-81.28" y2="5.08" width="0.1524" layer="91"/>
-<label x="-81.28" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="2_N" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="USB_SSRXM_DN0"/>
-<wire x1="-58.42" y1="10.16" x2="-81.28" y2="10.16" width="0.1524" layer="91"/>
-<label x="-81.28" y="10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="2_P" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="USB_SSRXP_DN0"/>
-<wire x1="-58.42" y1="12.7" x2="-81.28" y2="12.7" width="0.1524" layer="91"/>
-<label x="-81.28" y="12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="3_N" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="USB_DM_DN0"/>
-<wire x1="-58.42" y1="20.32" x2="-81.28" y2="20.32" width="0.1524" layer="91"/>
-<label x="-81.28" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="3_P" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="USB_DP_DN0"/>
-<wire x1="-58.42" y1="22.86" x2="-81.28" y2="22.86" width="0.1524" layer="91"/>
-<label x="-81.28" y="22.86" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="USB_SSRXP_DN2"/>
@@ -5071,6 +5033,48 @@ Source: www.cypressindustries.com</description>
 <wire x1="-27.94" y1="40.64" x2="-27.94" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="USB0_HS_P" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_DP_DN0"/>
+<wire x1="-58.42" y1="22.86" x2="-81.28" y2="22.86" width="0.1524" layer="91"/>
+<label x="-81.28" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB0_HS_N" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_DM_DN0"/>
+<wire x1="-58.42" y1="20.32" x2="-81.28" y2="20.32" width="0.1524" layer="91"/>
+<label x="-81.28" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB0_SSRX_P" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_SSRXP_DN0"/>
+<wire x1="-58.42" y1="12.7" x2="-81.28" y2="12.7" width="0.1524" layer="91"/>
+<label x="-81.28" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB0_SSRX_N" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_SSRXM_DN0"/>
+<wire x1="-58.42" y1="10.16" x2="-81.28" y2="10.16" width="0.1524" layer="91"/>
+<label x="-81.28" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB0_SSTX_P" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_SSTXP_DN0"/>
+<wire x1="-58.42" y1="7.62" x2="-81.28" y2="7.62" width="0.1524" layer="91"/>
+<label x="-81.28" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB0_SSTX_N" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="USB_SSTXM_DN0"/>
+<wire x1="-58.42" y1="5.08" x2="-81.28" y2="5.08" width="0.1524" layer="91"/>
+<label x="-81.28" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -5079,45 +5083,50 @@ Source: www.cypressindustries.com</description>
 <text x="-157.48" y="33.02" size="1.778" layer="91">TUSB9261PVP</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="-132.08" y="137.16"/>
-<instance part="U$1" gate="G$2" x="-132.08" y="96.52"/>
-<instance part="U$1" gate="G$3" x="121.92" y="121.92"/>
-<instance part="U$1" gate="G$4" x="-2.54" y="142.24"/>
-<instance part="U$1" gate="G$5" x="-132.08" y="55.88"/>
-<instance part="U$1" gate="G$6" x="-2.54" y="99.06"/>
-<instance part="C1" gate="G$1" x="43.18" y="106.68" rot="R270"/>
-<instance part="C2" gate="G$1" x="43.18" y="114.3" rot="R270"/>
-<instance part="X1" gate="G$1" x="53.34" y="162.56"/>
+<instance part="U$1" gate="G$1" x="-132.08" y="137.16" smashed="yes"/>
+<instance part="U$1" gate="G$2" x="-132.08" y="96.52" smashed="yes"/>
+<instance part="U$1" gate="G$3" x="121.92" y="121.92" smashed="yes"/>
+<instance part="U$1" gate="G$4" x="-2.54" y="142.24" smashed="yes"/>
+<instance part="U$1" gate="G$5" x="-132.08" y="55.88" smashed="yes"/>
+<instance part="U$1" gate="G$6" x="-2.54" y="99.06" smashed="yes"/>
+<instance part="C1" gate="G$1" x="43.18" y="106.68" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.815" y="105.664" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="38.989" y="105.664" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C2" gate="G$1" x="43.18" y="114.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.815" y="113.284" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="38.989" y="113.284" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="2_P" class="0">
+<net name="USB0_SSRX_P" class="0">
 <segment>
 <pinref part="U$1" gate="G$6" pin="USB_SSRXP"/>
 <wire x1="2.54" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
-<label x="33.02" y="104.14" size="1.778" layer="95"/>
+<label x="20.32" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="2_N" class="0">
+<net name="USB0_SSRX_N" class="0">
 <segment>
 <pinref part="U$1" gate="G$6" pin="USB_SSRXM"/>
 <wire x1="2.54" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
-<label x="33.02" y="101.6" size="1.778" layer="95"/>
+<label x="20.32" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3_P" class="0">
+<net name="USB0_HS_P" class="0">
 <segment>
 <pinref part="U$1" gate="G$6" pin="USB_DP"/>
 <wire x1="2.54" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
-<label x="33.02" y="99.06" size="1.778" layer="95"/>
+<label x="20.32" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3_N" class="0">
+<net name="USB0_HS_N" class="0">
 <segment>
 <pinref part="U$1" gate="G$6" pin="USB_DM"/>
 <wire x1="2.54" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
-<label x="33.02" y="96.52" size="1.778" layer="95"/>
+<label x="20.32" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="7" class="0">
@@ -5157,52 +5166,42 @@ Source: www.cypressindustries.com</description>
 <wire x1="33.02" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="1_P" class="0">
+<net name="USB0_SSTX_P" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
+<label x="48.26" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="1_N" class="0">
+<net name="USB0_SSTX_N" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
+<label x="48.26" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$101" class="0">
 <segment>
 <pinref part="U$1" gate="G$4" pin="SATA_TXP"/>
-<wire x1="2.54" y1="144.78" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="144.78" x2="22.86" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="3"/>
-<wire x1="22.86" y1="165.1" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="144.78" x2="10.16" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$102" class="0">
 <segment>
 <pinref part="U$1" gate="G$4" pin="SATA_TXM"/>
-<wire x1="2.54" y1="142.24" x2="25.4" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="142.24" x2="25.4" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="170.18" x2="48.26" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="142.24" x2="10.16" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$103" class="0">
 <segment>
 <pinref part="U$1" gate="G$4" pin="SATA_RXP"/>
-<wire x1="2.54" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="139.7" x2="27.94" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="7"/>
-<wire x1="27.94" y1="154.94" x2="48.26" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="139.7" x2="10.16" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$104" class="0">
 <segment>
 <pinref part="U$1" gate="G$4" pin="SATA_RXM"/>
-<wire x1="2.54" y1="137.16" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="137.16" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="5"/>
-<wire x1="30.48" y1="160.02" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="137.16" x2="10.16" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -5215,9 +5214,9 @@ Source: www.cypressindustries.com</description>
 <text x="-27.94" y="53.34" size="1.778" layer="91">Port 3</text>
 </plain>
 <instances>
-<instance part="U$3" gate="G$1" x="12.7" y="106.68"/>
-<instance part="U$4" gate="G$1" x="12.7" y="73.66"/>
-<instance part="U$5" gate="G$1" x="12.7" y="40.64"/>
+<instance part="U$3" gate="G$1" x="12.7" y="106.68" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="12.7" y="73.66" smashed="yes"/>
+<instance part="U$5" gate="G$1" x="12.7" y="40.64" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -5391,6 +5390,10 @@ Source: www.cypressindustries.com</description>
 <plain>
 </plain>
 <instances>
+<instance part="X2" gate="G$1" x="88.9" y="48.26" smashed="yes">
+<attribute name="NAME" x="86.36" y="58.42" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="86.36" y="36.83" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>

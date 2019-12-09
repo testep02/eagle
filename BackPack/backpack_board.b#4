@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -74,8 +75,6 @@
 <wire x1="68.814" y1="44.45" x2="68.814" y2="100.33" width="0" layer="20"/>
 <wire x1="68.814" y1="100.33" x2="5.334" y2="100.33" width="0" layer="20"/>
 <wire x1="5.334" y1="100.33" x2="5.334" y2="44.45" width="0" layer="20"/>
-<dimension x1="5.334" y1="44.45" x2="68.814" y2="44.45" x3="37.074" y3="34.29" textsize="1.27" layer="1" width="0.0254" unit="inch"/>
-<dimension x1="68.814" y1="100.33" x2="68.814" y2="44.45" x3="72.898" y3="72.39" textsize="1.27" layer="1" width="0.0254" unit="inch"/>
 </plain>
 <libraries>
 <library name="tusb9261pvp">
@@ -1797,16 +1796,23 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="2.5mil"/>
 <param name="dpGapFactor" value="1"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="31"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -1898,24 +1904,36 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="tusb9261pvp" package="S-PQFP-G64" value="TUSB9261PVP" x="37.4142" y="52.0954"/>
-<element name="U$3" library="usb3_type_a" package="R_A_DIP" value="USB_SS_CONN_TYPE_A" x="57.15" y="85.09" rot="R270"/>
-<element name="U$4" library="usb3_type_a" package="R_A_DIP" value="USB_SS_CONN_TYPE_A" x="36.83" y="85.09" rot="R270"/>
-<element name="U$5" library="usb3_type_a" package="R_A_DIP" value="USB_SS_CONN_TYPE_A" x="16.51" y="85.09" rot="R270"/>
-<element name="IC1" library="linear-technology" package="SOT223" value="LT1963EST-3.3" x="60.452" y="71.12">
-<attribute name="OC_NEWARK" value="57M7546" x="60.452" y="71.12" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="LT1963EST-3.3" x="60.452" y="71.12" size="1.778" layer="27" display="off"/>
+<element name="U$1" library="tusb9261pvp" package="S-PQFP-G64" value="TUSB9261PVP" x="37.338" y="52.07" smashed="yes"/>
+<element name="U$3" library="usb3_type_a" package="R_A_DIP" value="USB_SS_CONN_TYPE_A" x="57.15" y="85.09" smashed="yes" rot="R270"/>
+<element name="U$4" library="usb3_type_a" package="R_A_DIP" value="USB_SS_CONN_TYPE_A" x="36.83" y="85.09" smashed="yes" rot="R270"/>
+<element name="U$5" library="usb3_type_a" package="R_A_DIP" value="USB_SS_CONN_TYPE_A" x="16.51" y="85.09" smashed="yes" rot="R270"/>
+<element name="IC1" library="linear-technology" package="SOT223" value="LT1963EST-3.3" x="60.452" y="71.12" smashed="yes">
 <attribute name="MF" value="" x="60.452" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="LT1963EST-3.3" x="60.452" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="56.8452" y="67.818" size="1.27" layer="25" rot="R90"/>
 <attribute name="OC_FARNELL" value="1501032" x="60.452" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="57M7546" x="60.452" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="65.3288" y="67.818" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U$2" library="tusb8040a1" package="S-PQFP-G80" value="TUSB8040PFP" x="37.1856" y="74.8792"/>
-<element name="C1" library="rcl" package="C0402" value="" x="37.211" y="60.071" rot="R270"/>
-<element name="C2" library="rcl" package="C0402" value="" x="35.941" y="60.071" rot="R270"/>
-<element name="X1" library="con-cypressindustries" package="CCATA_32009_10X" value="SATA7-32009-10X" x="0.508" y="56.134" rot="R270">
-<attribute name="OC_NEWARK" value="unknown" x="0.508" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="0.508" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U$2" library="tusb8040a1" package="S-PQFP-G80" value="TUSB8040PFP" x="37.1856" y="74.8792" smashed="yes">
+<attribute name="NAME" x="36.5856" y="74.8792" size="0.6096" layer="25"/>
+</element>
+<element name="C1" library="rcl" package="C0402" value="" x="37.211" y="60.071" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.846" y="60.706" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="35.306" y="60.706" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C2" library="rcl" package="C0402" value="" x="35.941" y="60.071" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.576" y="60.706" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="34.036" y="60.706" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="X1" library="con-cypressindustries" package="CCATA_32009_10X" value="SATA7-32009-10X" x="0.508" y="56.134" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="0.508" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="0.508" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="13.208" y="63.119" size="1.27" layer="25" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="0.508" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="0.508" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="13.208" y="56.769" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -1932,37 +1950,37 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="VDD@9"/>
 <contactref element="U$1" pad="VDD@10"/>
 <polygon width="0.4064" layer="3" rank="6">
-<vertex x="6.604" y="99.06"/>
-<vertex x="67.564" y="99.06"/>
-<vertex x="67.564" y="45.72"/>
-<vertex x="6.604" y="45.72"/>
+<vertex x="5.842" y="99.822"/>
+<vertex x="68.326" y="99.822"/>
+<vertex x="68.326" y="44.958"/>
+<vertex x="5.842" y="44.958"/>
 </polygon>
-<wire x1="40.4142" y1="56.3119" x2="41.6307" y2="55.0954" width="0" layer="19" extent="1-1"/>
-<wire x1="37.2142" y1="56.3119" x2="40.4142" y2="56.3119" width="0" layer="19" extent="1-1"/>
-<wire x1="34.8142" y1="56.3119" x2="37.2142" y2="56.3119" width="0" layer="19" extent="1-1"/>
-<wire x1="33.1977" y1="55.0954" x2="34.8142" y2="56.3119" width="0" layer="19" extent="1-1"/>
-<wire x1="33.1977" y1="52.6954" x2="33.1977" y2="55.0954" width="0" layer="19" extent="1-1"/>
-<wire x1="33.1977" y1="50.2954" x2="33.1977" y2="52.6954" width="0" layer="19" extent="1-1"/>
-<wire x1="33.1977" y1="49.4954" x2="33.1977" y2="50.2954" width="0" layer="19" extent="1-1"/>
-<wire x1="34.4142" y1="47.8789" x2="33.1977" y2="49.4954" width="0" layer="19" extent="1-1"/>
-<wire x1="38.8142" y1="47.8789" x2="34.4142" y2="47.8789" width="0" layer="19" extent="1-1"/>
-<wire x1="41.6307" y1="49.8954" x2="38.8142" y2="47.8789" width="0" layer="19" extent="1-1"/>
+<wire x1="40.338" y1="56.2865" x2="41.5545" y2="55.07" width="0" layer="19" extent="1-1"/>
+<wire x1="37.138" y1="56.2865" x2="40.338" y2="56.2865" width="0" layer="19" extent="1-1"/>
+<wire x1="34.738" y1="56.2865" x2="37.138" y2="56.2865" width="0" layer="19" extent="1-1"/>
+<wire x1="33.1215" y1="55.07" x2="34.738" y2="56.2865" width="0" layer="19" extent="1-1"/>
+<wire x1="33.1215" y1="52.67" x2="33.1215" y2="55.07" width="0" layer="19" extent="1-1"/>
+<wire x1="33.1215" y1="50.27" x2="33.1215" y2="52.67" width="0" layer="19" extent="1-1"/>
+<wire x1="33.1215" y1="49.47" x2="33.1215" y2="50.27" width="0" layer="19" extent="1-1"/>
+<wire x1="34.338" y1="47.8535" x2="33.1215" y2="49.47" width="0" layer="19" extent="1-1"/>
+<wire x1="38.738" y1="47.8535" x2="34.338" y2="47.8535" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5545" y1="49.87" x2="38.738" y2="47.8535" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD33">
 <contactref element="U$1" pad="VDD33"/>
 <contactref element="U$1" pad="VDD33@1"/>
 <contactref element="U$1" pad="VDD33@2"/>
-<wire x1="36.8142" y1="47.8789" x2="41.6307" y2="51.8954" width="0" layer="19" extent="1-1"/>
-<wire x1="33.1977" y1="54.2954" x2="36.8142" y2="47.8789" width="0" layer="19" extent="1-1"/>
+<wire x1="36.738" y1="47.8535" x2="41.5545" y2="51.87" width="0" layer="19" extent="1-1"/>
+<wire x1="33.1215" y1="54.27" x2="36.738" y2="47.8535" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDDA33">
 <contactref element="U$1" pad="VDDA33"/>
 <contactref element="U$1" pad="VDDA33@1"/>
 <contactref element="U$1" pad="VDDA33@2"/>
 <contactref element="U$1" pad="VDDA@3"/>
-<wire x1="37.6142" y1="56.3119" x2="40.0142" y2="56.3119" width="0" layer="19" extent="1-1"/>
-<wire x1="34.4142" y1="56.3119" x2="37.6142" y2="56.3119" width="0" layer="19" extent="1-1"/>
-<wire x1="33.1977" y1="49.8954" x2="34.4142" y2="56.3119" width="0" layer="19" extent="1-1"/>
+<wire x1="37.538" y1="56.2865" x2="39.938" y2="56.2865" width="0" layer="19" extent="1-1"/>
+<wire x1="34.338" y1="56.2865" x2="37.538" y2="56.2865" width="0" layer="19" extent="1-1"/>
+<wire x1="33.1215" y1="49.87" x2="34.338" y2="56.2865" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VSSOSC">
 <contactref element="U$1" pad="VSSOSC"/>
@@ -1970,7 +1988,7 @@ design rules under a new name.</description>
 <signal name="VSS">
 <contactref element="U$1" pad="VSS"/>
 <contactref element="U$1" pad="VSS@1"/>
-<wire x1="33.1977" y1="51.4954" x2="36.0142" y2="56.3119" width="0" layer="19" extent="1-1"/>
+<wire x1="33.1215" y1="51.47" x2="35.938" y2="56.2865" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TP">
 <contactref element="U$1" pad="TP"/>
@@ -1978,14 +1996,14 @@ design rules under a new name.</description>
 <signal name="NC">
 <contactref element="U$1" pad="NC"/>
 <contactref element="U$1" pad="NC@1"/>
-<wire x1="33.1977" y1="49.0954" x2="38.8142" y2="56.3119" width="0" layer="19" extent="1-1"/>
+<wire x1="33.1215" y1="49.07" x2="38.738" y2="56.2865" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <polygon width="0.4064" layer="2" rank="6">
-<vertex x="6.604" y="99.06"/>
-<vertex x="67.564" y="99.06"/>
-<vertex x="67.564" y="45.72"/>
-<vertex x="6.604" y="45.72"/>
+<vertex x="5.842" y="99.822"/>
+<vertex x="68.326" y="99.822"/>
+<vertex x="68.326" y="44.958"/>
+<vertex x="5.842" y="44.958"/>
 </polygon>
 <contactref element="IC1" pad="2"/>
 <contactref element="IC1" pad="4"/>
@@ -2000,69 +2018,15 @@ design rules under a new name.</description>
 <signal name="9">
 <contactref element="U$1" pad="USB_R1RTN"/>
 </signal>
-<signal name="1_P">
-<contactref element="U$2" pad="8"/>
-<contactref element="C2" pad="1"/>
-<wire x1="35.941" y1="60.721" x2="35.956" y2="60.721" width="0.254" layer="1"/>
-<wire x1="35.956" y1="60.721" x2="36.322" y2="61.087" width="0.254" layer="1"/>
-<wire x1="36.322" y1="64.516" x2="35.9356" y2="64.9024" width="0.254" layer="1"/>
-<wire x1="35.9356" y1="68.0792" x2="35.9356" y2="64.9024" width="0.254" layer="1"/>
-<wire x1="36.322" y1="64.516" x2="36.322" y2="61.087" width="0.254" layer="1"/>
-</signal>
-<signal name="1_N">
-<contactref element="U$2" pad="9"/>
-<contactref element="C1" pad="1"/>
-<wire x1="37.211" y1="60.721" x2="37.196" y2="60.721" width="0.254" layer="1"/>
-<wire x1="37.196" y1="60.721" x2="36.83" y2="61.087" width="0.254" layer="1"/>
-<wire x1="36.83" y1="64.77" x2="36.4356" y2="65.1644" width="0.254" layer="1"/>
-<wire x1="36.4356" y1="68.0792" x2="36.4356" y2="65.1644" width="0.254" layer="1"/>
-<wire x1="36.83" y1="64.77" x2="36.83" y2="61.087" width="0.254" layer="1"/>
-</signal>
-<signal name="2_P">
-<contactref element="U$1" pad="USB_SSRXP"/>
-<contactref element="U$2" pad="6"/>
-<wire x1="35.2142" y1="56.3119" x2="35.2142" y2="57.3905875" width="0.254" layer="1"/>
-<wire x1="35.2142" y1="57.3905875" x2="34.163" y2="58.4417875" width="0.254" layer="1"/>
-<wire x1="34.9356" y1="68.0792" x2="34.9356" y2="65.1616" width="0.254" layer="1"/>
-<wire x1="34.9356" y1="65.1616" x2="34.798" y2="65.024" width="0.254" layer="1"/>
-<wire x1="34.798" y1="65.024" x2="34.798" y2="62.5892125" width="0.254" layer="1"/>
-<wire x1="34.798" y1="62.5892125" x2="34.163" y2="61.9542125" width="0.254" layer="1"/>
-<wire x1="34.163" y1="58.4417875" x2="34.163" y2="61.9542125" width="0.254" layer="1"/>
-</signal>
-<signal name="2_N">
-<contactref element="U$1" pad="USB_SSRXM"/>
-<contactref element="U$2" pad="7"/>
-<wire x1="35.6142" y1="56.3119" x2="35.6142" y2="57.7090125" width="0.254" layer="1"/>
-<wire x1="35.6142" y1="57.7090125" x2="34.671" y2="58.6522125" width="0.254" layer="1"/>
-<wire x1="34.671" y1="58.6522125" x2="34.671" y2="61.7437875" width="0.254" layer="1"/>
-<wire x1="35.4356" y1="68.0792" x2="35.4356" y2="64.8996" width="0.254" layer="1"/>
-<wire x1="35.4356" y1="64.8996" x2="35.306" y2="64.77" width="0.254" layer="1"/>
-<wire x1="35.306" y1="64.77" x2="35.306" y2="62.3787875" width="0.254" layer="1"/>
-<wire x1="35.306" y1="62.3787875" x2="34.671" y2="61.7437875" width="0.254" layer="1"/>
-</signal>
-<signal name="3_P">
-<contactref element="U$1" pad="USB_DP"/>
-<contactref element="U$2" pad="2"/>
-<wire x1="32.9356" y1="68.0792" x2="39.2142" y2="56.3119" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="3_N">
-<contactref element="U$1" pad="USB_DM"/>
-<contactref element="U$2" pad="3"/>
-<wire x1="33.4356" y1="68.0792" x2="39.6142" y2="56.3119" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="SATA_SSTXP_N">
 <contactref element="U$1" pad="USB_SSTXM"/>
 <contactref element="C1" pad="2"/>
-<wire x1="36.8142" y1="56.3119" x2="36.8142" y2="59.0242" width="0.254" layer="1"/>
-<wire x1="36.8142" y1="59.0242" x2="37.211" y2="59.421" width="0.254" layer="1"/>
+<wire x1="36.738" y1="56.2865" x2="37.211" y2="59.421" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SATA_SSTXP_P">
 <contactref element="U$1" pad="USB_SSTXP"/>
 <contactref element="C2" pad="2"/>
-<wire x1="36.4142" y1="56.3119" x2="36.4142" y2="57.3118" width="0.254" layer="1"/>
-<wire x1="36.4142" y1="57.3118" x2="36.322" y2="57.404" width="0.254" layer="1"/>
-<wire x1="36.322" y1="57.404" x2="36.322" y2="59.04" width="0.254" layer="1"/>
-<wire x1="36.322" y1="59.04" x2="35.941" y2="59.421" width="0.254" layer="1"/>
+<wire x1="36.338" y1="56.2865" x2="35.941" y2="59.421" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$3" pad="1"/>
@@ -2366,25 +2330,62 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$101">
 <contactref element="U$1" pad="SATA_TXP"/>
-<contactref element="X1" pad="1"/>
-<wire x1="11.708" y1="59.944" x2="33.1977" y2="51.8954" width="0" layer="19" extent="1-1"/>
+<contactref element="X1" pad="3"/>
+<wire x1="11.708" y1="57.404" x2="33.1215" y2="51.87" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$102">
 <contactref element="U$1" pad="SATA_TXM"/>
-<contactref element="X1" pad="3"/>
-<wire x1="11.708" y1="57.404" x2="33.1977" y2="52.2954" width="0" layer="19" extent="1-1"/>
+<contactref element="X1" pad="1"/>
+<wire x1="11.708" y1="59.944" x2="33.1215" y2="52.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$103">
 <contactref element="U$1" pad="SATA_RXP"/>
-<contactref element="X1" pad="5"/>
-<wire x1="11.708" y1="54.864" x2="33.1977" y2="50.6954" width="0" layer="19" extent="1-1"/>
+<contactref element="X1" pad="7"/>
+<wire x1="11.708" y1="52.324" x2="33.1215" y2="50.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$104">
 <contactref element="U$1" pad="SATA_RXM"/>
-<contactref element="X1" pad="7"/>
-<wire x1="11.708" y1="52.324" x2="33.1977" y2="51.0954" width="0" layer="19" extent="1-1"/>
+<contactref element="X1" pad="5"/>
+<wire x1="11.708" y1="54.864" x2="33.1215" y2="51.07" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB0_HS_P">
+<contactref element="U$2" pad="2"/>
+<contactref element="U$1" pad="USB_DP"/>
+<wire x1="39.138" y1="56.2865" x2="32.9356" y2="68.0792" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB0_HS_N">
+<contactref element="U$2" pad="3"/>
+<contactref element="U$1" pad="USB_DM"/>
+<wire x1="39.538" y1="56.2865" x2="33.4356" y2="68.0792" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB0_SSRX_P">
+<contactref element="U$2" pad="6"/>
+<contactref element="U$1" pad="USB_SSRXP"/>
+<wire x1="35.138" y1="56.2865" x2="34.9356" y2="68.0792" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB0_SSRX_N">
+<contactref element="U$2" pad="7"/>
+<contactref element="U$1" pad="USB_SSRXM"/>
+<wire x1="35.538" y1="56.2865" x2="35.4356" y2="68.0792" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB0_SSTX_P">
+<contactref element="U$2" pad="8"/>
+<contactref element="C2" pad="1"/>
+<wire x1="35.941" y1="60.721" x2="35.9356" y2="68.0792" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="USB0_SSTX_N">
+<contactref element="U$2" pad="9"/>
+<contactref element="C1" pad="1"/>
+<wire x1="37.211" y1="60.721" x2="36.4356" y2="68.0792" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 </eagle>
